@@ -82,7 +82,7 @@ architecture mixer_behavioral of mixer is
 	signal aux1: std_logic_vector(7 downto 0);
 	signal aux2: std_logic_vector(7 downto 0);
 		begin
-			aux1 <= std_logic_vector( unsigned(x1) + unsigned(x2) ) when crypt else std_logic_vector( unsigned(x1) - unsigned(aux2) );
+			aux1 <= std_logic_vector( unsigned(x1) + unsigned(x2) ) when crypt else std_logic_vector( unsigned(x1) - unsigned(aux2) ); --found ya
 			aux2 <= ( std_logic_vector( rotate_left( unsigned( x1 ), diffusion_matrix( round, pair ) ) ) xor aux1 ) when crypt else std_logic_vector( rotate_right( unsigned( x1 xor x2 ), diffusion_matrix( round, pair ) ) ); 
 			y1 <= aux1;
 			y2 <= aux2;

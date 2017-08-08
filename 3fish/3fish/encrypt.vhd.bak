@@ -1,0 +1,13 @@
+library STD;
+library ieee;
+use ieee.std_logic_1164.all;
+use ieee.numeric_std.all;
+
+entity encrypt is
+  port( key:		in	std_logic_vector(1152 downto 0);
+		  input:  	in std_logic_vector(63 downto 0);
+		  output:  	out std_logic_vector(63 downto 0)
+      );
+end entity encrypt;
+
+
