@@ -12,27 +12,21 @@ entity threefish is
       );
 end entity threefish;
 
-architecture fish_dataflow of threefish is
-	signal round: integer;
+architecture fish of threefish is
 	signal subkeys: std_logic_vector(1215 downto 0);
-	signal aux1: std_logic_vector(63 downto 0);
-	signal aux2: std_logic_vector(63 downto 0);
+	signal aux: std_logic_vector(4671 downto 0);
+	signal aux2: std_logic_vector(1152 downto 0);
 	begin
 		scheduler: entity work.key_scheduler port map ( key, tweak, subkeys ); 
-		cycle: entity work.cycle port map ( aux1, round, crypt, aux2 );
-		process ( input, subkeys, crypt ) is 
-			begin
-				aux1 <= input;
-				for round in 0 to 72 loop
-					if (round mod 4 ) = 0 then
-							if crypt then
-								aux1 <= ( aux1 xor subkeys( ( 7 + ( (round / 4) * 8 ) ) downto ( (round / 4) * 8 ) ) );
-							else 
-								aux1 <= ( aux1 xor subkeys( ( 1215 - ( (round / 4) * 8 ) ) downto ( 1208 - ( (round / 4) * 8 ) ) ) );
-							end if;
-					end if;
-					aux1 <= aux2;
-				end loop;
-				output <= aux1; 
-		end process;
-end architecture fish_dataflow;
+		aux(63  downto 0) <= ( aux(63 downto 0) xor subkeys(63 downto 0) ) when crypt else ( aux(63 downto 0) xor subkeys(1215 downto 1152) );
+		full_run: 
+		for round in 0 to 17 generate
+			C0: entity work.cycle port map ( aux( ( 63 + ( round * 256 ) ) downto ( 0 + ( round * 256 ) ) ), round, crypt, aux( ( 127 + ( round * 256 ) ) downto ( 64 + ( round * 256 ) ) ) );
+			C1: entity work.cycle port map ( aux( ( 127 + ( round * 256 ) ) downto ( 64 + ( round * 256 ) ) ), round, crypt, aux( ( 191 + ( round * 256 ) ) downto ( 128 + ( round * 256 ) ) ) );
+			C2: entity work.cycle port map ( aux( ( 191 + ( round * 256 ) ) downto ( 128 + ( round * 256 ) ) ), round, crypt, aux( ( 255 + ( round * 256 ) ) downto ( 192 + ( round * 256 ) ) ) );
+			C3: entity work.cycle port map ( aux( ( 255 + ( round * 256 ) ) downto ( 192 + ( round * 256 ) ) ), round, crypt, aux2( ( 63 + ( round * 64 ) ) downto ( 0 + ( round * 64 ) ) ) );
+			
+			aux( ( 319 + ( round * 256 ) ) downto ( 256 + ( round * 256 ) ) ) <= ( aux2( ( 63 + ( round * 64 ) ) downto ( 0 + ( round * 64 ) ) ) xor subkeys( ( 15 + ( round * 64 ) ) downto ( 8 + ( round * 64 ) ) ) ) when crypt else ( aux2( ( 63 + ( round * 64 ) ) downto ( 0 + ( round * 64 ) ) ) xor subkeys( ( 1151 - ( round * 64 ) ) downto ( 1088 - ( round * 64 ) ) ) );
+		end generate full_run;
+		output <= aux( 4671 downto 4608 );
+end architecture fish;

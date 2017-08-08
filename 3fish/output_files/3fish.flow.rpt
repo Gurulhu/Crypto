@@ -1,5 +1,5 @@
 Flow report for 3fish
-Fri Aug 04 19:37:07 2017
+Mon Aug 07 22:14:27 2017
 Quartus II 64-Bit Version 13.0.1 Build 232 06/12/2013 Service Pack 1 SJ Full Version
 
 
@@ -40,13 +40,13 @@ applicable agreement for further details.
 +---------------------------------------------------------------------------------------+
 ; Flow Summary                                                                          ;
 +------------------------------------+--------------------------------------------------+
-; Flow Status                        ; Successful - Fri Aug 04 19:37:07 2017            ;
+; Flow Status                        ; Successful - Mon Aug 07 22:14:27 2017            ;
 ; Quartus II 64-Bit Version          ; 13.0.1 Build 232 06/12/2013 SP 1 SJ Full Version ;
 ; Revision Name                      ; 3fish                                            ;
-; Top-level Entity Name              ; 3fish                                            ;
+; Top-level Entity Name              ; threefish                                        ;
 ; Family                             ; Cyclone IV GX                                    ;
-; Total logic elements               ; 172 / 29,440 ( < 1 % )                           ;
-;     Total combinational functions  ; 172 / 29,440 ( < 1 % )                           ;
+; Total logic elements               ; 12,304 / 29,440 ( 42 % )                         ;
+;     Total combinational functions  ; 12,304 / 29,440 ( 42 % )                         ;
 ;     Dedicated logic registers      ; 0 / 29,440 ( 0 % )                               ;
 ; Total registers                    ; 0                                                ;
 ; Total pins                         ; 209 / 307 ( 68 % )                               ;
@@ -68,7 +68,7 @@ applicable agreement for further details.
 +-------------------+---------------------+
 ; Option            ; Setting             ;
 +-------------------+---------------------+
-; Start date & time ; 08/04/2017 19:36:47 ;
+; Start date & time ; 08/07/2017 22:11:09 ;
 ; Main task         ; Compilation         ;
 ; Revision Name     ; 3fish               ;
 +-------------------+---------------------+
@@ -79,13 +79,14 @@ applicable agreement for further details.
 +-------------------------------------+---------------------------------+---------------+-------------+----------------+
 ; Assignment Name                     ; Value                           ; Default Value ; Entity Name ; Section Id     ;
 +-------------------------------------+---------------------------------+---------------+-------------+----------------+
-; COMPILER_SIGNATURE_ID               ; 203061449387325.150188620601644 ; --            ; --          ; --             ;
+; COMPILER_SIGNATURE_ID               ; 203061449387325.150215466908344 ; --            ; --          ; --             ;
 ; EDA_OUTPUT_DATA_FORMAT              ; Vhdl                            ; --            ; --          ; eda_simulation ;
 ; EDA_SIMULATION_TOOL                 ; ModelSim-Altera (VHDL)          ; <None>        ; --          ; --             ;
-; PARTITION_COLOR                     ; 16764057                        ; --            ; --          ; Top            ;
-; PARTITION_FITTER_PRESERVATION_LEVEL ; PLACEMENT_AND_ROUTING           ; --            ; --          ; Top            ;
-; PARTITION_NETLIST_TYPE              ; SOURCE                          ; --            ; --          ; Top            ;
+; PARTITION_COLOR                     ; 16764057                        ; --            ; threefish   ; Top            ;
+; PARTITION_FITTER_PRESERVATION_LEVEL ; PLACEMENT_AND_ROUTING           ; --            ; threefish   ; Top            ;
+; PARTITION_NETLIST_TYPE              ; SOURCE                          ; --            ; threefish   ; Top            ;
 ; PROJECT_OUTPUT_DIRECTORY            ; output_files                    ; --            ; --          ; --             ;
+; TOP_LEVEL_ENTITY                    ; threefish                       ; 3fish         ; --          ; --             ;
 +-------------------------------------+---------------------------------+---------------+-------------+----------------+
 
 
@@ -94,12 +95,12 @@ applicable agreement for further details.
 +---------------------------+--------------+-------------------------+---------------------+------------------------------------+
 ; Module Name               ; Elapsed Time ; Average Processors Used ; Peak Virtual Memory ; Total CPU Time (on all processors) ;
 +---------------------------+--------------+-------------------------+---------------------+------------------------------------+
-; Analysis & Synthesis      ; 00:00:02     ; 1.0                     ; 583 MB              ; 00:00:02                           ;
-; Fitter                    ; 00:00:10     ; 2.2                     ; 1281 MB             ; 00:00:14                           ;
-; Assembler                 ; 00:00:00     ; 1.0                     ; 457 MB              ; 00:00:00                           ;
-; TimeQuest Timing Analyzer ; 00:00:03     ; 1.0                     ; 528 MB              ; 00:00:02                           ;
-; EDA Netlist Writer        ; 00:00:01     ; 1.0                     ; 459 MB              ; 00:00:01                           ;
-; Total                     ; 00:00:16     ; --                      ; --                  ; 00:00:19                           ;
+; Analysis & Synthesis      ; 00:01:57     ; 1.0                     ; 647 MB              ; 00:01:55                           ;
+; Fitter                    ; 00:00:38     ; 2.3                     ; 1392 MB             ; 00:00:52                           ;
+; Assembler                 ; 00:00:01     ; 1.0                     ; 487 MB              ; 00:00:01                           ;
+; TimeQuest Timing Analyzer ; 00:00:18     ; 1.0                     ; 713 MB              ; 00:00:17                           ;
+; EDA Netlist Writer        ; 00:00:15     ; 1.0                     ; 564 MB              ; 00:00:14                           ;
+; Total                     ; 00:03:09     ; --                      ; --                  ; 00:03:19                           ;
 +---------------------------+--------------+-------------------------+---------------------+------------------------------------+
 
 

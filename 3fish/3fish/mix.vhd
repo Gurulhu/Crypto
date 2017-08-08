@@ -80,17 +80,17 @@ architecture mixer_behavioral of mixer is
 	end diffusion_matrix;
 begin
   process (round) is
-  variable aux1: std_logic_vector(7 downto 0);
-  variable aux2: std_logic_vector(7 downto 0);
-  begin
-	if crypt then
-	  aux1 := std_logic_vector( unsigned(x1) + unsigned(x2) );
-	  aux2 := std_logic_vector( rotate_left( unsigned( x1 ), diffusion_matrix( round, pair ) ) ) xor aux1;
-	else
-	  aux2 := std_logic_vector( rotate_right( unsigned( x1 xor x2 ), diffusion_matrix( round, pair ) ));
-	  aux1 := std_logic_vector( unsigned(x1) - unsigned(aux2) );
-	end if;	
-	y1 <= aux1;
-	y2 <= aux2;
+	variable aux1: std_logic_vector(7 downto 0);
+	variable aux2: std_logic_vector(7 downto 0);
+	begin
+		if crypt then
+			aux1 := std_logic_vector( unsigned(x1) + unsigned(x2) );
+			aux2 := std_logic_vector( rotate_left( unsigned( x1 ), diffusion_matrix( round, pair ) ) ) xor aux1;
+		else
+			aux2 := std_logic_vector( rotate_right( unsigned( x1 xor x2 ), diffusion_matrix( round, pair ) ));
+			aux1 := std_logic_vector( unsigned(x1) - unsigned(aux2) );
+		end if;	
+		y1 <= aux1;
+		y2 <= aux2;
   end process;
  end architecture mixer_behavioral;
