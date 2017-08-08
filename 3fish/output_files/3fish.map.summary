@@ -1,10 +1,10 @@
-Analysis & Synthesis Status : Successful - Mon Aug 07 22:13:07 2017
+Analysis & Synthesis Status : Successful - Tue Aug 08 12:27:20 2017
 Quartus II 64-Bit Version : 13.0.1 Build 232 06/12/2013 SP 1 SJ Full Version
 Revision Name : 3fish
 Top-level Entity Name : threefish
 Family : Cyclone IV GX
-Total logic elements : 12,304
-    Total combinational functions : 12,304
+Total logic elements : 10,812
+    Total combinational functions : 10,812
     Dedicated logic registers : 0
 Total registers : 0
 Total pins : 209

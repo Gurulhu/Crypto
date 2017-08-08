@@ -1,12 +1,12 @@
-Fitter Status : Successful - Mon Aug 07 22:13:46 2017
+Fitter Status : Successful - Tue Aug 08 12:27:53 2017
 Quartus II 64-Bit Version : 13.0.1 Build 232 06/12/2013 SP 1 SJ Full Version
 Revision Name : 3fish
 Top-level Entity Name : threefish
 Family : Cyclone IV GX
 Device : EP4CGX30CF23C6
 Timing Models : Final
-Total logic elements : 12,304 / 29,440 ( 42 % )
-    Total combinational functions : 12,304 / 29,440 ( 42 % )
+Total logic elements : 10,812 / 29,440 ( 37 % )
+    Total combinational functions : 10,812 / 29,440 ( 37 % )
     Dedicated logic registers : 0 / 29,440 ( 0 % )
 Total registers : 0
 Total pins : 209 / 307 ( 68 % )
