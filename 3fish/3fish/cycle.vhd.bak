@@ -1,0 +1,21 @@
+library STD;
+library ieee;
+use ieee.std_logic_1164.all;
+use ieee.numeric_std.all;
+
+entity cycle is
+  port( key:      in  std_logic_vector(63 downto 0);
+        input:  	in std_logic_vector(63 downto 0);
+		  round:		in integer;
+		  crypt: 	in	boolean;
+		  output:  	out std_logic_vector(63 downto 0)
+      );
+end entity cycle;
+
+architecture cycle_dataflow of cycle is
+	begin
+	scheduler : entity work.key_scheduler port map( key, tweak, subkeys );
+		mix2 : entity work.mixer port map ( key(23 downto 16), key(31 downto 24), crypt, round, "01", output(23 downto 16), output(31 downto 24) );
+		mix3 : entity work.mixer port map ( key(39 downto 32), key(47 downto 40), crypt, round, "10", output(39 downto 32), output(47 downto 40) );
+		mix4 : entity work.mixer port map ( key(55 downto 48), key(63 downto 56), crypt, round, "11", output(55 downto 48), output(63 downto 56) );
+end architecture cycle_dataflow;

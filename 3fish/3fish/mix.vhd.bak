@@ -1,0 +1,12 @@
+entity mixer is
+  port( x1:     in std_logic_vector[7 downto 0];
+        x2:     in std_logic_vector[7 downto 0];
+        cript:  in bit;
+        y1:     out std_logic_vector[7 downto 0];
+        y2:     out std_logic_vector[7 downto 0]
+      );
+end entity mixer;
+
+architecture behavioral of mixer is:
+  begin
+    

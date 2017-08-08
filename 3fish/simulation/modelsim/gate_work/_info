@@ -1,0 +1,49 @@
+m255
+K3
+13
+cModel Technology
+Z0 dC:\Users\8628130\Downloads\3fish\simulation\modelsim
+E\3fish\
+Z1 w1501886226
+Z2 DPx4 ieee 16 vital_primitives 0 22 9W@YP9_VCb?_GCJ8e:;YQ0
+Z3 DPx9 cycloneiv 19 cycloneiv_atom_pack 0 22 m?`=;YMPDJ6nin9AMY9NB1
+Z4 DPx4 ieee 12 vital_timing 0 22 7h8zz2S4HVg:a;2TBMI[j1
+Z5 DPx3 std 6 textio 0 22 5>J:;AW>W0[[dW0I6EN1Q0
+Z6 DPx4 ieee 14 std_logic_1164 0 22 5=aWaoGZSMWIcH0i^f`XF1
+Z7 DPx9 cycloneiv 20 cycloneiv_components 0 22 bh0cR2@ZAOzXIcZ^3KXOk0
+Z8 dC:\Users\8628130\Downloads\3fish\simulation\modelsim
+Z9 83fish_6_1200mv_85c_slow.vho
+Z10 F3fish_6_1200mv_85c_slow.vho
+l0
+L34
+Vm_oMHB690TWa7Y2ioVFYh2
+!s100 SlBE8<9:CK7j5jl>>`b9S2
+Z11 OV;C;10.1d;51
+31
+!i10b 1
+Z12 !s108 1501886528.968000
+Z13 !s90 -reportprogress|300|-93|-work|work|3fish_6_1200mv_85c_slow.vho|
+Z14 !s107 3fish_6_1200mv_85c_slow.vho|
+Z15 o-93 -work work -O0
+Z16 tExplicit 1
+n@1343fish@134
+Astructure
+R2
+R3
+R4
+R5
+R6
+R7
+DEx4 work 7 \3fish\ 0 22 m_oMHB690TWa7Y2ioVFYh2
+l709
+L256
+VjEa;<;B;hC@9UAzIEEWQ`0
+!s100 :;kC?klDn0oBfj5>9]=`j2
+R11
+31
+!i10b 1
+R12
+R13
+R14
+R15
+R16

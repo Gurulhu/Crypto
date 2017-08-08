@@ -1,0 +1,47 @@
+
+library STD;
+library ieee;
+use ieee.std_logic_1164.all;
+--use ieee.numeric_std.all;
+
+entity permute is
+    port( x :      in std_logic_vector(63 downto 0);
+          crypt :  in boolean;
+          o :      out std_logic_vector(63 downto 0)
+        );
+end entity permute;
+
+architecture permute_dataflow of permute is
+  begin
+      o(7 downto 0) <= x(23 downto 16) when crypt else x(55 downto 48);
+      o(15 downto 8) <= x(15 downto 8) when crypt else x(15 downto 8);
+      o(23 downto 16) <= x(39 downto 32) when crypt else x(7 downto 0);
+      o(31 downto 24) <= x(63 downto 56) when crypt else x(63 downto 56);
+      o(39 downto 32) <= x(55 downto 48) when crypt else x(23 downto 16);
+      o(47 downto 40) <= x(47 downto 40) when crypt else x(47 downto 40);
+      o(55 downto 48) <= x(7 downto 0) when crypt else x(39 downto 32);
+      o(63 downto 56) <= x(31 downto 24) when crypt else x(31 downto 24);
+  end architecture permute_dataflow;
+
+library ieee;
+use ieee.std_logic_1164.all;
+--use ieee.numeric_std.all;
+use work.all;
+
+entity permute_testbench is
+end entity permute_testbench;
+
+architecture permute_testbench_dataflow of permute_testbench is
+  signal x, o: std_logic_vector(63 downto 0);
+  signal c: boolean;
+  begin
+    portmaps: entity permute port map( x, c, o);
+    testprocess: process is
+    begin
+      x <= "0110010101100101011001010110010101100101011001010110010101100101";
+      c <= true;
+      wait for 10 ns;
+      x <= o(63 downto 0);
+      c <= false;
+    end process testprocess;
+  end architecture permute_testbench_dataflow;

@@ -1,0 +1,579 @@
+Analysis & Synthesis report for 3fish
+Fri Aug 04 19:36:48 2017
+Quartus II 64-Bit Version 13.0.1 Build 232 06/12/2013 Service Pack 1 SJ Full Version
+
+
+---------------------
+; Table of Contents ;
+---------------------
+  1. Legal Notice
+  2. Analysis & Synthesis Summary
+  3. Analysis & Synthesis Settings
+  4. Parallel Compilation
+  5. Analysis & Synthesis Source Files Read
+  6. Analysis & Synthesis Resource Usage Summary
+  7. Analysis & Synthesis Resource Utilization by Entity
+  8. Logic Cells Representing Combinational Loops
+  9. General Register Statistics
+ 10. Port Connectivity Checks: "threefish:inst|cycle:cycle|mixer:mix4"
+ 11. Port Connectivity Checks: "threefish:inst|cycle:cycle|mixer:mix3"
+ 12. Port Connectivity Checks: "threefish:inst|cycle:cycle|mixer:mix2"
+ 13. Port Connectivity Checks: "threefish:inst|cycle:cycle|mixer:mix1"
+ 14. Port Connectivity Checks: "threefish:inst|cycle:cycle"
+ 15. Port Connectivity Checks: "threefish:inst|key_scheduler:scheduler"
+ 16. Elapsed Time Per Partition
+ 17. Analysis & Synthesis Messages
+
+
+
+----------------
+; Legal Notice ;
+----------------
+Copyright (C) 1991-2013 Altera Corporation
+Your use of Altera Corporation's design tools, logic functions 
+and other software and tools, and its AMPP partner logic 
+functions, and any output files from any of the foregoing 
+(including device programming or simulation files), and any 
+associated documentation or information are expressly subject 
+to the terms and conditions of the Altera Program License 
+Subscription Agreement, Altera MegaCore Function License 
+Agreement, or other applicable license agreement, including, 
+without limitation, that your use is for the sole purpose of 
+programming logic devices manufactured by Altera and sold by 
+Altera or its authorized distributors.  Please refer to the 
+applicable agreement for further details.
+
+
+
++---------------------------------------------------------------------------------------+
+; Analysis & Synthesis Summary                                                          ;
++------------------------------------+--------------------------------------------------+
+; Analysis & Synthesis Status        ; Successful - Fri Aug 04 19:36:48 2017            ;
+; Quartus II 64-Bit Version          ; 13.0.1 Build 232 06/12/2013 SP 1 SJ Full Version ;
+; Revision Name                      ; 3fish                                            ;
+; Top-level Entity Name              ; 3fish                                            ;
+; Family                             ; Cyclone IV GX                                    ;
+; Total logic elements               ; 172                                              ;
+;     Total combinational functions  ; 172                                              ;
+;     Dedicated logic registers      ; 0                                                ;
+; Total registers                    ; 0                                                ;
+; Total pins                         ; 209                                              ;
+; Total virtual pins                 ; 0                                                ;
+; Total memory bits                  ; 0                                                ;
+; Embedded Multiplier 9-bit elements ; 0                                                ;
+; Total GXB Receiver Channel PCS     ; 0                                                ;
+; Total GXB Receiver Channel PMA     ; 0                                                ;
+; Total GXB Transmitter Channel PCS  ; 0                                                ;
+; Total GXB Transmitter Channel PMA  ; 0                                                ;
+; Total PLLs                         ; 0                                                ;
++------------------------------------+--------------------------------------------------+
+
+
++----------------------------------------------------------------------------------------------------------------------+
+; Analysis & Synthesis Settings                                                                                        ;
++----------------------------------------------------------------------------+--------------------+--------------------+
+; Option                                                                     ; Setting            ; Default Value      ;
++----------------------------------------------------------------------------+--------------------+--------------------+
+; Top-level entity name                                                      ; 3fish              ; 3fish              ;
+; Family name                                                                ; Cyclone IV GX      ; Cyclone IV GX      ;
+; Use smart compilation                                                      ; Off                ; Off                ;
+; Enable parallel Assembler and TimeQuest Timing Analyzer during compilation ; On                 ; On                 ;
+; Enable compact report table                                                ; Off                ; Off                ;
+; Restructure Multiplexers                                                   ; Auto               ; Auto               ;
+; Create Debugging Nodes for IP Cores                                        ; Off                ; Off                ;
+; Preserve fewer node names                                                  ; On                 ; On                 ;
+; Disable OpenCore Plus hardware evaluation                                  ; Off                ; Off                ;
+; Verilog Version                                                            ; Verilog_2001       ; Verilog_2001       ;
+; VHDL Version                                                               ; VHDL_1993          ; VHDL_1993          ;
+; State Machine Processing                                                   ; Auto               ; Auto               ;
+; Safe State Machine                                                         ; Off                ; Off                ;
+; Extract Verilog State Machines                                             ; On                 ; On                 ;
+; Extract VHDL State Machines                                                ; On                 ; On                 ;
+; Ignore Verilog initial constructs                                          ; Off                ; Off                ;
+; Iteration limit for constant Verilog loops                                 ; 5000               ; 5000               ;
+; Iteration limit for non-constant Verilog loops                             ; 250                ; 250                ;
+; Add Pass-Through Logic to Inferred RAMs                                    ; On                 ; On                 ;
+; Infer RAMs from Raw Logic                                                  ; On                 ; On                 ;
+; Parallel Synthesis                                                         ; On                 ; On                 ;
+; DSP Block Balancing                                                        ; Auto               ; Auto               ;
+; NOT Gate Push-Back                                                         ; On                 ; On                 ;
+; Power-Up Don't Care                                                        ; On                 ; On                 ;
+; Remove Redundant Logic Cells                                               ; Off                ; Off                ;
+; Remove Duplicate Registers                                                 ; On                 ; On                 ;
+; Ignore CARRY Buffers                                                       ; Off                ; Off                ;
+; Ignore CASCADE Buffers                                                     ; Off                ; Off                ;
+; Ignore GLOBAL Buffers                                                      ; Off                ; Off                ;
+; Ignore ROW GLOBAL Buffers                                                  ; Off                ; Off                ;
+; Ignore LCELL Buffers                                                       ; Off                ; Off                ;
+; Ignore SOFT Buffers                                                        ; On                 ; On                 ;
+; Limit AHDL Integers to 32 Bits                                             ; Off                ; Off                ;
+; Optimization Technique                                                     ; Balanced           ; Balanced           ;
+; Carry Chain Length                                                         ; 70                 ; 70                 ;
+; Auto Carry Chains                                                          ; On                 ; On                 ;
+; Auto Open-Drain Pins                                                       ; On                 ; On                 ;
+; Perform WYSIWYG Primitive Resynthesis                                      ; Off                ; Off                ;
+; Auto ROM Replacement                                                       ; On                 ; On                 ;
+; Auto RAM Replacement                                                       ; On                 ; On                 ;
+; Auto DSP Block Replacement                                                 ; On                 ; On                 ;
+; Auto Shift Register Replacement                                            ; Auto               ; Auto               ;
+; Allow Shift Register Merging across Hierarchies                            ; Auto               ; Auto               ;
+; Auto Clock Enable Replacement                                              ; On                 ; On                 ;
+; Strict RAM Replacement                                                     ; Off                ; Off                ;
+; Allow Synchronous Control Signals                                          ; On                 ; On                 ;
+; Force Use of Synchronous Clear Signals                                     ; Off                ; Off                ;
+; Auto RAM Block Balancing                                                   ; On                 ; On                 ;
+; Auto RAM to Logic Cell Conversion                                          ; Off                ; Off                ;
+; Auto Resource Sharing                                                      ; Off                ; Off                ;
+; Allow Any RAM Size For Recognition                                         ; Off                ; Off                ;
+; Allow Any ROM Size For Recognition                                         ; Off                ; Off                ;
+; Allow Any Shift Register Size For Recognition                              ; Off                ; Off                ;
+; Use LogicLock Constraints during Resource Balancing                        ; On                 ; On                 ;
+; Ignore translate_off and synthesis_off directives                          ; Off                ; Off                ;
+; Timing-Driven Synthesis                                                    ; On                 ; On                 ;
+; Report Parameter Settings                                                  ; On                 ; On                 ;
+; Report Source Assignments                                                  ; On                 ; On                 ;
+; Report Connectivity Checks                                                 ; On                 ; On                 ;
+; Ignore Maximum Fan-Out Assignments                                         ; Off                ; Off                ;
+; Synchronization Register Chain Length                                      ; 2                  ; 2                  ;
+; PowerPlay Power Optimization                                               ; Normal compilation ; Normal compilation ;
+; HDL message level                                                          ; Level2             ; Level2             ;
+; Suppress Register Optimization Related Messages                            ; Off                ; Off                ;
+; Number of Removed Registers Reported in Synthesis Report                   ; 5000               ; 5000               ;
+; Number of Swept Nodes Reported in Synthesis Report                         ; 5000               ; 5000               ;
+; Number of Inverted Registers Reported in Synthesis Report                  ; 100                ; 100                ;
+; Clock MUX Protection                                                       ; On                 ; On                 ;
+; Auto Gated Clock Conversion                                                ; Off                ; Off                ;
+; Block Design Naming                                                        ; Auto               ; Auto               ;
+; SDC constraint protection                                                  ; Off                ; Off                ;
+; Synthesis Effort                                                           ; Auto               ; Auto               ;
+; Shift Register Replacement - Allow Asynchronous Clear Signal               ; On                 ; On                 ;
+; Pre-Mapping Resynthesis Optimization                                       ; Off                ; Off                ;
+; Analysis & Synthesis Message Level                                         ; Medium             ; Medium             ;
+; Disable Register Merging Across Hierarchies                                ; Auto               ; Auto               ;
+; Resource Aware Inference For Block RAM                                     ; On                 ; On                 ;
+; Synthesis Seed                                                             ; 1                  ; 1                  ;
++----------------------------------------------------------------------------+--------------------+--------------------+
+
+
++------------------------------------------+
+; Parallel Compilation                     ;
++----------------------------+-------------+
+; Processors                 ; Number      ;
++----------------------------+-------------+
+; Number detected on machine ; 4           ;
+; Maximum allowed            ; 4           ;
+;                            ;             ;
+; Average used               ; 1.00        ;
+; Maximum used               ; 4           ;
+;                            ;             ;
+; Usage by Processor         ; % Time Used ;
+;     Processor 1            ; 100.0%      ;
+;     Processors 2-4         ; < 0.1%      ;
++----------------------------+-------------+
+
+
++--------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Analysis & Synthesis Source Files Read                                                                                                                       ;
++----------------------------------+-----------------+------------------------------------+----------------------------------------------------------+---------+
+; File Name with User-Entered Path ; Used in Netlist ; File Type                          ; File Name with Absolute Path                             ; Library ;
++----------------------------------+-----------------+------------------------------------+----------------------------------------------------------+---------+
+; 3fish/key_scheduler.vhd          ; yes             ; User VHDL File                     ; C:/Users/8628130/Downloads/3fish/3fish/key_scheduler.vhd ;         ;
+; 3fish/mix.vhd                    ; yes             ; User VHDL File                     ; C:/Users/8628130/Downloads/3fish/3fish/mix.vhd           ;         ;
+; 3fish/permute.vhd                ; yes             ; User VHDL File                     ; C:/Users/8628130/Downloads/3fish/3fish/permute.vhd       ;         ;
+; 3fish.bdf                        ; yes             ; User Block Diagram/Schematic File  ; C:/Users/8628130/Downloads/3fish/3fish.bdf               ;         ;
+; 3fish/threefish.vhd              ; yes             ; User VHDL File                     ; C:/Users/8628130/Downloads/3fish/3fish/threefish.vhd     ;         ;
+; 3fish/cycle.vhd                  ; yes             ; User VHDL File                     ; C:/Users/8628130/Downloads/3fish/3fish/cycle.vhd         ;         ;
++----------------------------------+-----------------+------------------------------------+----------------------------------------------------------+---------+
+
+
++---------------------------------------------+
+; Analysis & Synthesis Resource Usage Summary ;
++--------------------------+------------------+
+; Resource                 ; Usage            ;
++--------------------------+------------------+
+; I/O pins                 ; 209              ;
+; DSP block 9-bit elements ; 0                ;
+; Maximum fan-out node     ; crypt~input      ;
+; Maximum fan-out          ; 107              ;
+; Total fan-out            ; 839              ;
+; Average fan-out          ; 1.42             ;
++--------------------------+------------------+
+
+
++-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Analysis & Synthesis Resource Utilization by Entity                                                                                                                                                                   ;
++----------------------------+-------------------+--------------+-------------+--------------+---------+-----------+-----------+------+--------------+---------------------------------------------------+--------------+
+; Compilation Hierarchy Node ; LC Combinationals ; LC Registers ; Memory Bits ; DSP Elements ; DSP 9x9 ; DSP 18x18 ; DSP 36x36 ; Pins ; Virtual Pins ; Full Hierarchy Name                               ; Library Name ;
++----------------------------+-------------------+--------------+-------------+--------------+---------+-----------+-----------+------+--------------+---------------------------------------------------+--------------+
+; |3fish                     ; 172 (0)           ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0         ; 209  ; 0            ; |3fish                                            ; work         ;
+;    |threefish:inst|        ; 172 (0)           ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |3fish|threefish:inst                             ; work         ;
+;       |cycle:cycle|        ; 172 (0)           ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |3fish|threefish:inst|cycle:cycle                 ; work         ;
+;          |mixer:mix1|      ; 46 (46)           ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |3fish|threefish:inst|cycle:cycle|mixer:mix1      ; work         ;
+;          |mixer:mix2|      ; 41 (41)           ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |3fish|threefish:inst|cycle:cycle|mixer:mix2      ; work         ;
+;          |mixer:mix3|      ; 36 (36)           ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |3fish|threefish:inst|cycle:cycle|mixer:mix3      ; work         ;
+;          |mixer:mix4|      ; 33 (33)           ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |3fish|threefish:inst|cycle:cycle|mixer:mix4      ; work         ;
+;          |permute:permute| ; 16 (16)           ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |3fish|threefish:inst|cycle:cycle|permute:permute ; work         ;
++----------------------------+-------------------+--------------+-------------+--------------+---------+-----------+-----------+------+--------------+---------------------------------------------------+--------------+
+Note: For table entries with two numbers listed, the numbers in parentheses indicate the number of resources of the given type used by the specific entity alone. The numbers listed outside of parentheses indicate the total resources of the given type used by the specific entity and all of its sub-entities in the hierarchy.
+
+
++--------------------------------------------------------------+
+; Logic Cells Representing Combinational Loops                 ;
++---------------------------------------------------------+----+
+; Logic Cell Name                                         ;    ;
++---------------------------------------------------------+----+
+; threefish:inst|cycle:cycle|mixer:mix2|y2[7]~0           ;    ;
+; rtl~12                                                  ;    ;
+; rtl~47                                                  ;    ;
+; rtl~56                                                  ;    ;
+; rtl~51                                                  ;    ;
+; rtl~74                                                  ;    ;
+; rtl~57                                                  ;    ;
+; rtl~52                                                  ;    ;
+; rtl~75                                                  ;    ;
+; rtl~58                                                  ;    ;
+; rtl~53                                                  ;    ;
+; rtl~76                                                  ;    ;
+; rtl~60                                                  ;    ;
+; rtl~59                                                  ;    ;
+; rtl~39                                                  ;    ;
+; rtl~33                                                  ;    ;
+; rtl~13                                                  ;    ;
+; rtl~49                                                  ;    ;
+; rtl~37                                                  ;    ;
+; rtl~14                                                  ;    ;
+; rtl~50                                                  ;    ;
+; rtl~41                                                  ;    ;
+; rtl~15                                                  ;    ;
+; rtl~45                                                  ;    ;
+; rtl~16                                                  ;    ;
+; threefish:inst|cycle:cycle|mixer:mix4|y1[7]~0           ;    ;
+; rtl~46                                                  ;    ;
+; rtl~69                                                  ;    ;
+; rtl~48                                                  ;    ;
+; rtl~71                                                  ;    ;
+; rtl~54                                                  ;    ;
+; rtl~72                                                  ;    ;
+; rtl~55                                                  ;    ;
+; rtl~73                                                  ;    ;
+; rtl~62                                                  ;    ;
+; rtl~17                                                  ;    ;
+; rtl~21                                                  ;    ;
+; threefish:inst|cycle:cycle|mixer:mix2|y2[0]~1           ;    ;
+; threefish:inst|cycle:cycle|permute:permute|output[55]~1 ;    ;
+; rtl~20                                                  ;    ;
+; rtl~19                                                  ;    ;
+; rtl~24                                                  ;    ;
+; rtl~23                                                  ;    ;
+; rtl~28                                                  ;    ;
+; rtl~27                                                  ;    ;
+; rtl~32                                                  ;    ;
+; rtl~31                                                  ;    ;
+; rtl~36                                                  ;    ;
+; rtl~35                                                  ;    ;
+; rtl~40                                                  ;    ;
+; rtl~44                                                  ;    ;
+; threefish:inst|cycle:cycle|mixer:mix1|y2[0]~0           ;    ;
+; rtl~61                                                  ;    ;
+; rtl~63                                                  ;    ;
+; rtl~64                                                  ;    ;
+; rtl~25                                                  ;    ;
+; rtl~29                                                  ;    ;
+; rtl~65                                                  ;    ;
+; rtl~66                                                  ;    ;
+; rtl~67                                                  ;    ;
+; rtl~68                                                  ;    ;
+; threefish:inst|cycle:cycle|mixer:mix3|y2[0]~0           ;    ;
+; rtl~70                                                  ;    ;
+; Number of logic cells representing combinational loops  ; 63 ;
++---------------------------------------------------------+----+
+Note: All cells listed above may not be present at the end of synthesis due to various synthesis optimizations.
+
+
++------------------------------------------------------+
+; General Register Statistics                          ;
++----------------------------------------------+-------+
+; Statistic                                    ; Value ;
++----------------------------------------------+-------+
+; Total registers                              ; 0     ;
+; Number of registers using Synchronous Clear  ; 0     ;
+; Number of registers using Synchronous Load   ; 0     ;
+; Number of registers using Asynchronous Clear ; 0     ;
+; Number of registers using Asynchronous Load  ; 0     ;
+; Number of registers using Clock Enable       ; 0     ;
+; Number of registers using Preset             ; 0     ;
++----------------------------------------------+-------+
+
+
++-------------------------------------------------------------------+
+; Port Connectivity Checks: "threefish:inst|cycle:cycle|mixer:mix4" ;
++------+-------+----------+-----------------------------------------+
+; Port ; Type  ; Severity ; Details                                 ;
++------+-------+----------+-----------------------------------------+
+; pair ; Input ; Info     ; Stuck at VCC                            ;
++------+-------+----------+-----------------------------------------+
+
+
++-------------------------------------------------------------------+
+; Port Connectivity Checks: "threefish:inst|cycle:cycle|mixer:mix3" ;
++---------+-------+----------+--------------------------------------+
+; Port    ; Type  ; Severity ; Details                              ;
++---------+-------+----------+--------------------------------------+
+; pair[1] ; Input ; Info     ; Stuck at VCC                         ;
+; pair[0] ; Input ; Info     ; Stuck at GND                         ;
++---------+-------+----------+--------------------------------------+
+
+
++-------------------------------------------------------------------+
+; Port Connectivity Checks: "threefish:inst|cycle:cycle|mixer:mix2" ;
++---------+-------+----------+--------------------------------------+
+; Port    ; Type  ; Severity ; Details                              ;
++---------+-------+----------+--------------------------------------+
+; pair[1] ; Input ; Info     ; Stuck at GND                         ;
+; pair[0] ; Input ; Info     ; Stuck at VCC                         ;
++---------+-------+----------+--------------------------------------+
+
+
++-------------------------------------------------------------------+
+; Port Connectivity Checks: "threefish:inst|cycle:cycle|mixer:mix1" ;
++------+-------+----------+-----------------------------------------+
+; Port ; Type  ; Severity ; Details                                 ;
++------+-------+----------+-----------------------------------------+
+; pair ; Input ; Info     ; Stuck at GND                            ;
++------+-------+----------+-----------------------------------------+
+
+
++--------------------------------------------------------+
+; Port Connectivity Checks: "threefish:inst|cycle:cycle" ;
++--------------+-------+----------+----------------------+
+; Port         ; Type  ; Severity ; Details              ;
++--------------+-------+----------+----------------------+
+; round[30..1] ; Input ; Info     ; Stuck at GND         ;
+; round[31]    ; Input ; Info     ; Stuck at VCC         ;
+; round[0]     ; Input ; Info     ; Stuck at VCC         ;
++--------------+-------+----------+----------------------+
+
+
++-------------------------------------------------------------------------------------------------------------------+
+; Port Connectivity Checks: "threefish:inst|key_scheduler:scheduler"                                                ;
++---------+--------+----------+-------------------------------------------------------------------------------------+
+; Port    ; Type   ; Severity ; Details                                                                             ;
++---------+--------+----------+-------------------------------------------------------------------------------------+
+; subkeys ; Output ; Info     ; Connected to dangling logic. Logic that only feeds a dangling port will be removed. ;
++---------+--------+----------+-------------------------------------------------------------------------------------+
+
+
++-------------------------------+
+; Elapsed Time Per Partition    ;
++----------------+--------------+
+; Partition Name ; Elapsed Time ;
++----------------+--------------+
+; Top            ; 00:00:00     ;
++----------------+--------------+
+
+
++-------------------------------+
+; Analysis & Synthesis Messages ;
++-------------------------------+
+Info: *******************************************************************
+Info: Running Quartus II 64-Bit Analysis & Synthesis
+    Info: Version 13.0.1 Build 232 06/12/2013 Service Pack 1 SJ Full Version
+    Info: Processing started: Fri Aug 04 19:36:46 2017
+Info: Command: quartus_map --read_settings_files=on --write_settings_files=off 3fish -c 3fish
+Info (20030): Parallel compilation is enabled and will use 4 of the 4 processors detected
+Info (12021): Found 2 design units, including 1 entities, in source file 3fish/key_scheduler.vhd
+    Info (12022): Found design unit 1: key_scheduler-scheduler_behavioral
+    Info (12023): Found entity 1: key_scheduler
+Info (12021): Found 2 design units, including 1 entities, in source file 3fish/mix.vhd
+    Info (12022): Found design unit 1: mixer-mixer_behavioral
+    Info (12023): Found entity 1: mixer
+Info (12021): Found 2 design units, including 1 entities, in source file 3fish/permute.vhd
+    Info (12022): Found design unit 1: permute-permute_dataflow
+    Info (12023): Found entity 1: permute
+Info (12021): Found 1 design units, including 1 entities, in source file 3fish.bdf
+    Info (12023): Found entity 1: 3fish
+Info (12021): Found 2 design units, including 1 entities, in source file 3fish/threefish.vhd
+    Info (12022): Found design unit 1: threefish-fish_dataflow
+    Info (12023): Found entity 1: threefish
+Info (12021): Found 2 design units, including 1 entities, in source file 3fish/cycle.vhd
+    Info (12022): Found design unit 1: cycle-cycle_dataflow
+    Info (12023): Found entity 1: cycle
+Info (12127): Elaborating entity "3fish" for the top level hierarchy
+Info (12128): Elaborating entity "threefish" for hierarchy "threefish:inst"
+Warning (10541): VHDL Signal Declaration warning at threefish.vhd(16): used implicit default value for signal "round" because signal was never assigned a value or an explicit default value. Use of implicit default value may introduce unintended design optimizations.
+Warning (10492): VHDL Process Statement warning at threefish.vhd(29): signal "aux1" is read inside the Process Statement but isn't in the Process Statement's sensitivity list
+Warning (10492): VHDL Process Statement warning at threefish.vhd(31): signal "aux1" is read inside the Process Statement but isn't in the Process Statement's sensitivity list
+Warning (10492): VHDL Process Statement warning at threefish.vhd(34): signal "aux2" is read inside the Process Statement but isn't in the Process Statement's sensitivity list
+Warning (10492): VHDL Process Statement warning at threefish.vhd(36): signal "aux1" is read inside the Process Statement but isn't in the Process Statement's sensitivity list
+Info (12128): Elaborating entity "key_scheduler" for hierarchy "threefish:inst|key_scheduler:scheduler"
+Info (12128): Elaborating entity "cycle" for hierarchy "threefish:inst|cycle:cycle"
+Info (12128): Elaborating entity "mixer" for hierarchy "threefish:inst|cycle:cycle|mixer:mix1"
+Warning (10492): VHDL Process Statement warning at mix.vhd(86): signal "crypt" is read inside the Process Statement but isn't in the Process Statement's sensitivity list
+Warning (10492): VHDL Process Statement warning at mix.vhd(87): signal "x1" is read inside the Process Statement but isn't in the Process Statement's sensitivity list
+Warning (10492): VHDL Process Statement warning at mix.vhd(87): signal "x2" is read inside the Process Statement but isn't in the Process Statement's sensitivity list
+Warning (10492): VHDL Process Statement warning at mix.vhd(88): signal "x1" is read inside the Process Statement but isn't in the Process Statement's sensitivity list
+Warning (10492): VHDL Process Statement warning at mix.vhd(88): signal "pair" is read inside the Process Statement but isn't in the Process Statement's sensitivity list
+Warning (10492): VHDL Process Statement warning at mix.vhd(90): signal "x1" is read inside the Process Statement but isn't in the Process Statement's sensitivity list
+Warning (10492): VHDL Process Statement warning at mix.vhd(90): signal "x2" is read inside the Process Statement but isn't in the Process Statement's sensitivity list
+Warning (10492): VHDL Process Statement warning at mix.vhd(90): signal "pair" is read inside the Process Statement but isn't in the Process Statement's sensitivity list
+Warning (10492): VHDL Process Statement warning at mix.vhd(91): signal "x1" is read inside the Process Statement but isn't in the Process Statement's sensitivity list
+Info (12128): Elaborating entity "permute" for hierarchy "threefish:inst|cycle:cycle|permute:permute"
+Info (286030): Timing-Driven Synthesis is running
+Info (16010): Generating hard_block partition "hard_block:auto_generated_inst"
+    Info (16011): Adding 0 node(s), including 0 DDIO, 0 PLL, 0 transceiver and 0 LCELL
+Warning (21074): Design contains 144 input pin(s) that do not drive logic
+    Warning (15610): No output dependent on input pin "plaintext[63]"
+    Warning (15610): No output dependent on input pin "plaintext[62]"
+    Warning (15610): No output dependent on input pin "plaintext[61]"
+    Warning (15610): No output dependent on input pin "plaintext[60]"
+    Warning (15610): No output dependent on input pin "plaintext[59]"
+    Warning (15610): No output dependent on input pin "plaintext[58]"
+    Warning (15610): No output dependent on input pin "plaintext[57]"
+    Warning (15610): No output dependent on input pin "plaintext[56]"
+    Warning (15610): No output dependent on input pin "plaintext[55]"
+    Warning (15610): No output dependent on input pin "plaintext[54]"
+    Warning (15610): No output dependent on input pin "plaintext[53]"
+    Warning (15610): No output dependent on input pin "plaintext[52]"
+    Warning (15610): No output dependent on input pin "plaintext[51]"
+    Warning (15610): No output dependent on input pin "plaintext[50]"
+    Warning (15610): No output dependent on input pin "plaintext[49]"
+    Warning (15610): No output dependent on input pin "plaintext[48]"
+    Warning (15610): No output dependent on input pin "plaintext[47]"
+    Warning (15610): No output dependent on input pin "plaintext[46]"
+    Warning (15610): No output dependent on input pin "plaintext[45]"
+    Warning (15610): No output dependent on input pin "plaintext[44]"
+    Warning (15610): No output dependent on input pin "plaintext[43]"
+    Warning (15610): No output dependent on input pin "plaintext[42]"
+    Warning (15610): No output dependent on input pin "plaintext[41]"
+    Warning (15610): No output dependent on input pin "plaintext[40]"
+    Warning (15610): No output dependent on input pin "plaintext[39]"
+    Warning (15610): No output dependent on input pin "plaintext[38]"
+    Warning (15610): No output dependent on input pin "plaintext[37]"
+    Warning (15610): No output dependent on input pin "plaintext[36]"
+    Warning (15610): No output dependent on input pin "plaintext[35]"
+    Warning (15610): No output dependent on input pin "plaintext[34]"
+    Warning (15610): No output dependent on input pin "plaintext[33]"
+    Warning (15610): No output dependent on input pin "plaintext[32]"
+    Warning (15610): No output dependent on input pin "plaintext[31]"
+    Warning (15610): No output dependent on input pin "plaintext[30]"
+    Warning (15610): No output dependent on input pin "plaintext[29]"
+    Warning (15610): No output dependent on input pin "plaintext[28]"
+    Warning (15610): No output dependent on input pin "plaintext[27]"
+    Warning (15610): No output dependent on input pin "plaintext[26]"
+    Warning (15610): No output dependent on input pin "plaintext[25]"
+    Warning (15610): No output dependent on input pin "plaintext[24]"
+    Warning (15610): No output dependent on input pin "plaintext[23]"
+    Warning (15610): No output dependent on input pin "plaintext[22]"
+    Warning (15610): No output dependent on input pin "plaintext[21]"
+    Warning (15610): No output dependent on input pin "plaintext[20]"
+    Warning (15610): No output dependent on input pin "plaintext[19]"
+    Warning (15610): No output dependent on input pin "plaintext[18]"
+    Warning (15610): No output dependent on input pin "plaintext[17]"
+    Warning (15610): No output dependent on input pin "plaintext[16]"
+    Warning (15610): No output dependent on input pin "plaintext[15]"
+    Warning (15610): No output dependent on input pin "plaintext[14]"
+    Warning (15610): No output dependent on input pin "plaintext[13]"
+    Warning (15610): No output dependent on input pin "plaintext[12]"
+    Warning (15610): No output dependent on input pin "plaintext[11]"
+    Warning (15610): No output dependent on input pin "plaintext[10]"
+    Warning (15610): No output dependent on input pin "plaintext[9]"
+    Warning (15610): No output dependent on input pin "plaintext[8]"
+    Warning (15610): No output dependent on input pin "plaintext[7]"
+    Warning (15610): No output dependent on input pin "plaintext[6]"
+    Warning (15610): No output dependent on input pin "plaintext[5]"
+    Warning (15610): No output dependent on input pin "plaintext[4]"
+    Warning (15610): No output dependent on input pin "plaintext[3]"
+    Warning (15610): No output dependent on input pin "plaintext[2]"
+    Warning (15610): No output dependent on input pin "plaintext[1]"
+    Warning (15610): No output dependent on input pin "plaintext[0]"
+    Warning (15610): No output dependent on input pin "keys[63]"
+    Warning (15610): No output dependent on input pin "keys[62]"
+    Warning (15610): No output dependent on input pin "keys[61]"
+    Warning (15610): No output dependent on input pin "keys[60]"
+    Warning (15610): No output dependent on input pin "keys[59]"
+    Warning (15610): No output dependent on input pin "keys[58]"
+    Warning (15610): No output dependent on input pin "keys[57]"
+    Warning (15610): No output dependent on input pin "keys[56]"
+    Warning (15610): No output dependent on input pin "keys[55]"
+    Warning (15610): No output dependent on input pin "keys[54]"
+    Warning (15610): No output dependent on input pin "keys[53]"
+    Warning (15610): No output dependent on input pin "keys[52]"
+    Warning (15610): No output dependent on input pin "keys[51]"
+    Warning (15610): No output dependent on input pin "keys[50]"
+    Warning (15610): No output dependent on input pin "keys[49]"
+    Warning (15610): No output dependent on input pin "keys[48]"
+    Warning (15610): No output dependent on input pin "keys[47]"
+    Warning (15610): No output dependent on input pin "keys[46]"
+    Warning (15610): No output dependent on input pin "keys[45]"
+    Warning (15610): No output dependent on input pin "keys[44]"
+    Warning (15610): No output dependent on input pin "keys[43]"
+    Warning (15610): No output dependent on input pin "keys[42]"
+    Warning (15610): No output dependent on input pin "keys[41]"
+    Warning (15610): No output dependent on input pin "keys[40]"
+    Warning (15610): No output dependent on input pin "keys[39]"
+    Warning (15610): No output dependent on input pin "keys[38]"
+    Warning (15610): No output dependent on input pin "keys[37]"
+    Warning (15610): No output dependent on input pin "keys[36]"
+    Warning (15610): No output dependent on input pin "keys[35]"
+    Warning (15610): No output dependent on input pin "keys[34]"
+    Warning (15610): No output dependent on input pin "keys[33]"
+    Warning (15610): No output dependent on input pin "keys[32]"
+    Warning (15610): No output dependent on input pin "keys[31]"
+    Warning (15610): No output dependent on input pin "keys[30]"
+    Warning (15610): No output dependent on input pin "keys[29]"
+    Warning (15610): No output dependent on input pin "keys[28]"
+    Warning (15610): No output dependent on input pin "keys[27]"
+    Warning (15610): No output dependent on input pin "keys[26]"
+    Warning (15610): No output dependent on input pin "keys[25]"
+    Warning (15610): No output dependent on input pin "keys[24]"
+    Warning (15610): No output dependent on input pin "keys[23]"
+    Warning (15610): No output dependent on input pin "keys[22]"
+    Warning (15610): No output dependent on input pin "keys[21]"
+    Warning (15610): No output dependent on input pin "keys[20]"
+    Warning (15610): No output dependent on input pin "keys[19]"
+    Warning (15610): No output dependent on input pin "keys[18]"
+    Warning (15610): No output dependent on input pin "keys[17]"
+    Warning (15610): No output dependent on input pin "keys[16]"
+    Warning (15610): No output dependent on input pin "keys[15]"
+    Warning (15610): No output dependent on input pin "keys[14]"
+    Warning (15610): No output dependent on input pin "keys[13]"
+    Warning (15610): No output dependent on input pin "keys[12]"
+    Warning (15610): No output dependent on input pin "keys[11]"
+    Warning (15610): No output dependent on input pin "keys[10]"
+    Warning (15610): No output dependent on input pin "keys[9]"
+    Warning (15610): No output dependent on input pin "keys[8]"
+    Warning (15610): No output dependent on input pin "keys[7]"
+    Warning (15610): No output dependent on input pin "keys[6]"
+    Warning (15610): No output dependent on input pin "keys[5]"
+    Warning (15610): No output dependent on input pin "keys[4]"
+    Warning (15610): No output dependent on input pin "keys[3]"
+    Warning (15610): No output dependent on input pin "keys[2]"
+    Warning (15610): No output dependent on input pin "keys[1]"
+    Warning (15610): No output dependent on input pin "keys[0]"
+    Warning (15610): No output dependent on input pin "tweak[15]"
+    Warning (15610): No output dependent on input pin "tweak[14]"
+    Warning (15610): No output dependent on input pin "tweak[13]"
+    Warning (15610): No output dependent on input pin "tweak[12]"
+    Warning (15610): No output dependent on input pin "tweak[11]"
+    Warning (15610): No output dependent on input pin "tweak[10]"
+    Warning (15610): No output dependent on input pin "tweak[9]"
+    Warning (15610): No output dependent on input pin "tweak[8]"
+    Warning (15610): No output dependent on input pin "tweak[7]"
+    Warning (15610): No output dependent on input pin "tweak[6]"
+    Warning (15610): No output dependent on input pin "tweak[5]"
+    Warning (15610): No output dependent on input pin "tweak[4]"
+    Warning (15610): No output dependent on input pin "tweak[3]"
+    Warning (15610): No output dependent on input pin "tweak[2]"
+    Warning (15610): No output dependent on input pin "tweak[1]"
+    Warning (15610): No output dependent on input pin "tweak[0]"
+Info (21057): Implemented 381 device resources after synthesis - the final resource count might be different
+    Info (21058): Implemented 145 input pins
+    Info (21059): Implemented 64 output pins
+    Info (21061): Implemented 172 logic cells
+Info: Quartus II 64-Bit Analysis & Synthesis was successful. 0 errors, 159 warnings
+    Info: Peak virtual memory: 583 megabytes
+    Info: Processing ended: Fri Aug 04 19:36:48 2017
+    Info: Elapsed time: 00:00:02
+    Info: Total CPU time (on all processors): 00:00:02
+
+

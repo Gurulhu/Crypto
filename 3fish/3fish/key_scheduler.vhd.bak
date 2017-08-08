@@ -1,0 +1,16 @@
+entity key_scheduler is:
+  port( key:      in  std_logic_vector(63 downto 0);
+        tweak:    in  std_logic_vector(15 downto 0);
+        subkeys:  out std_logic_vector(151 downto 0)
+      );
+end entity key_scheduler;
+
+architecture behavioral of key_scheduler is
+  variable keys: std_logic_vector(71 downto 0);
+  variable tweaks: std_logic_vector(23 downto 0);
+  begin
+
+    keys[63 downto 0] <= key[63 downto 0];
+    keys[71 downto 64] <= key[63 downto 56] xor key[55 downto 48] xor key[47 downto 40] xor key[39 downto 32] xor key[31 downto 24] xor key[23 downto 16] xor key[15 downto 8] xor key[7 downto 0]
+    tweaks[15 downto 0] <= tweak[15 downto 0];
+    tweaks[23 downto 16] <= tweak[15 downto 8] xor tweak[7 downto 0];
