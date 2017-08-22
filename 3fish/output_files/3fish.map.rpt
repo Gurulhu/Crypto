@@ -1,5 +1,5 @@
 Analysis & Synthesis report for 3fish
-Tue Aug 08 14:45:40 2017
+Mon Aug 21 17:28:38 2017
 Quartus II 64-Bit Version 13.0.1 Build 232 06/12/2013 Service Pack 1 SJ Full Version
 
 
@@ -13,15 +13,157 @@ Quartus II 64-Bit Version 13.0.1 Build 232 06/12/2013 Service Pack 1 SJ Full Ver
   5. Analysis & Synthesis Source Files Read
   6. Analysis & Synthesis Resource Usage Summary
   7. Analysis & Synthesis Resource Utilization by Entity
-  8. Logic Cells Representing Combinational Loops
-  9. General Register Statistics
- 10. Multiplexer Restructuring Statistics (Restructuring Performed)
- 11. Port Connectivity Checks: "mixer:M3"
- 12. Port Connectivity Checks: "mixer:M2"
- 13. Port Connectivity Checks: "mixer:M1"
- 14. Port Connectivity Checks: "mixer:M0"
- 15. Elapsed Time Per Partition
- 16. Analysis & Synthesis Messages
+  8. General Register Statistics
+  9. Port Connectivity Checks: "decrypt:D0|mix4:\full_run:17:M3"
+ 10. Port Connectivity Checks: "decrypt:D0|mix4:\full_run:17:M2"
+ 11. Port Connectivity Checks: "decrypt:D0|mix4:\full_run:17:M1"
+ 12. Port Connectivity Checks: "decrypt:D0|mix4:\full_run:17:M0"
+ 13. Port Connectivity Checks: "decrypt:D0|mix4:\full_run:16:M3"
+ 14. Port Connectivity Checks: "decrypt:D0|mix4:\full_run:16:M2"
+ 15. Port Connectivity Checks: "decrypt:D0|mix4:\full_run:16:M1"
+ 16. Port Connectivity Checks: "decrypt:D0|mix4:\full_run:16:M0"
+ 17. Port Connectivity Checks: "decrypt:D0|mix4:\full_run:15:M3"
+ 18. Port Connectivity Checks: "decrypt:D0|mix4:\full_run:15:M2"
+ 19. Port Connectivity Checks: "decrypt:D0|mix4:\full_run:15:M1"
+ 20. Port Connectivity Checks: "decrypt:D0|mix4:\full_run:15:M0"
+ 21. Port Connectivity Checks: "decrypt:D0|mix4:\full_run:14:M3"
+ 22. Port Connectivity Checks: "decrypt:D0|mix4:\full_run:14:M2"
+ 23. Port Connectivity Checks: "decrypt:D0|mix4:\full_run:14:M1"
+ 24. Port Connectivity Checks: "decrypt:D0|mix4:\full_run:14:M0"
+ 25. Port Connectivity Checks: "decrypt:D0|mix4:\full_run:13:M3"
+ 26. Port Connectivity Checks: "decrypt:D0|mix4:\full_run:13:M2"
+ 27. Port Connectivity Checks: "decrypt:D0|mix4:\full_run:13:M1"
+ 28. Port Connectivity Checks: "decrypt:D0|mix4:\full_run:13:M0"
+ 29. Port Connectivity Checks: "decrypt:D0|mix4:\full_run:12:M3"
+ 30. Port Connectivity Checks: "decrypt:D0|mix4:\full_run:12:M2"
+ 31. Port Connectivity Checks: "decrypt:D0|mix4:\full_run:12:M1"
+ 32. Port Connectivity Checks: "decrypt:D0|mix4:\full_run:12:M0"
+ 33. Port Connectivity Checks: "decrypt:D0|mix4:\full_run:11:M3"
+ 34. Port Connectivity Checks: "decrypt:D0|mix4:\full_run:11:M2"
+ 35. Port Connectivity Checks: "decrypt:D0|mix4:\full_run:11:M1"
+ 36. Port Connectivity Checks: "decrypt:D0|mix4:\full_run:11:M0"
+ 37. Port Connectivity Checks: "decrypt:D0|mix4:\full_run:10:M3"
+ 38. Port Connectivity Checks: "decrypt:D0|mix4:\full_run:10:M2"
+ 39. Port Connectivity Checks: "decrypt:D0|mix4:\full_run:10:M1"
+ 40. Port Connectivity Checks: "decrypt:D0|mix4:\full_run:10:M0"
+ 41. Port Connectivity Checks: "decrypt:D0|mix4:\full_run:9:M3"
+ 42. Port Connectivity Checks: "decrypt:D0|mix4:\full_run:9:M2"
+ 43. Port Connectivity Checks: "decrypt:D0|mix4:\full_run:9:M1"
+ 44. Port Connectivity Checks: "decrypt:D0|mix4:\full_run:9:M0"
+ 45. Port Connectivity Checks: "decrypt:D0|mix4:\full_run:8:M3"
+ 46. Port Connectivity Checks: "decrypt:D0|mix4:\full_run:8:M2"
+ 47. Port Connectivity Checks: "decrypt:D0|mix4:\full_run:8:M1"
+ 48. Port Connectivity Checks: "decrypt:D0|mix4:\full_run:8:M0"
+ 49. Port Connectivity Checks: "decrypt:D0|mix4:\full_run:7:M3"
+ 50. Port Connectivity Checks: "decrypt:D0|mix4:\full_run:7:M2"
+ 51. Port Connectivity Checks: "decrypt:D0|mix4:\full_run:7:M1"
+ 52. Port Connectivity Checks: "decrypt:D0|mix4:\full_run:7:M0"
+ 53. Port Connectivity Checks: "decrypt:D0|mix4:\full_run:6:M3"
+ 54. Port Connectivity Checks: "decrypt:D0|mix4:\full_run:6:M2"
+ 55. Port Connectivity Checks: "decrypt:D0|mix4:\full_run:6:M1"
+ 56. Port Connectivity Checks: "decrypt:D0|mix4:\full_run:6:M0"
+ 57. Port Connectivity Checks: "decrypt:D0|mix4:\full_run:5:M3"
+ 58. Port Connectivity Checks: "decrypt:D0|mix4:\full_run:5:M2"
+ 59. Port Connectivity Checks: "decrypt:D0|mix4:\full_run:5:M1"
+ 60. Port Connectivity Checks: "decrypt:D0|mix4:\full_run:5:M0"
+ 61. Port Connectivity Checks: "decrypt:D0|mix4:\full_run:4:M3"
+ 62. Port Connectivity Checks: "decrypt:D0|mix4:\full_run:4:M2"
+ 63. Port Connectivity Checks: "decrypt:D0|mix4:\full_run:4:M1"
+ 64. Port Connectivity Checks: "decrypt:D0|mix4:\full_run:4:M0"
+ 65. Port Connectivity Checks: "decrypt:D0|mix4:\full_run:3:M3"
+ 66. Port Connectivity Checks: "decrypt:D0|mix4:\full_run:3:M2"
+ 67. Port Connectivity Checks: "decrypt:D0|mix4:\full_run:3:M1"
+ 68. Port Connectivity Checks: "decrypt:D0|mix4:\full_run:3:M0"
+ 69. Port Connectivity Checks: "decrypt:D0|mix4:\full_run:2:M3"
+ 70. Port Connectivity Checks: "decrypt:D0|mix4:\full_run:2:M2"
+ 71. Port Connectivity Checks: "decrypt:D0|mix4:\full_run:2:M1"
+ 72. Port Connectivity Checks: "decrypt:D0|mix4:\full_run:2:M0"
+ 73. Port Connectivity Checks: "decrypt:D0|mix4:\full_run:1:M3"
+ 74. Port Connectivity Checks: "decrypt:D0|mix4:\full_run:1:M2"
+ 75. Port Connectivity Checks: "decrypt:D0|mix4:\full_run:1:M1"
+ 76. Port Connectivity Checks: "decrypt:D0|mix4:\full_run:1:M0"
+ 77. Port Connectivity Checks: "decrypt:D0|mix4:\full_run:0:M3"
+ 78. Port Connectivity Checks: "decrypt:D0|mix4:\full_run:0:M2"
+ 79. Port Connectivity Checks: "decrypt:D0|mix4:\full_run:0:M1"
+ 80. Port Connectivity Checks: "decrypt:D0|mix4:\full_run:0:M0"
+ 81. Port Connectivity Checks: "encrypt:E0|mix4:\full_run:17:M3"
+ 82. Port Connectivity Checks: "encrypt:E0|mix4:\full_run:17:M2"
+ 83. Port Connectivity Checks: "encrypt:E0|mix4:\full_run:17:M1"
+ 84. Port Connectivity Checks: "encrypt:E0|mix4:\full_run:17:M0"
+ 85. Port Connectivity Checks: "encrypt:E0|mix4:\full_run:16:M3"
+ 86. Port Connectivity Checks: "encrypt:E0|mix4:\full_run:16:M2"
+ 87. Port Connectivity Checks: "encrypt:E0|mix4:\full_run:16:M1"
+ 88. Port Connectivity Checks: "encrypt:E0|mix4:\full_run:16:M0"
+ 89. Port Connectivity Checks: "encrypt:E0|mix4:\full_run:15:M3"
+ 90. Port Connectivity Checks: "encrypt:E0|mix4:\full_run:15:M2"
+ 91. Port Connectivity Checks: "encrypt:E0|mix4:\full_run:15:M1"
+ 92. Port Connectivity Checks: "encrypt:E0|mix4:\full_run:15:M0"
+ 93. Port Connectivity Checks: "encrypt:E0|mix4:\full_run:14:M3"
+ 94. Port Connectivity Checks: "encrypt:E0|mix4:\full_run:14:M2"
+ 95. Port Connectivity Checks: "encrypt:E0|mix4:\full_run:14:M1"
+ 96. Port Connectivity Checks: "encrypt:E0|mix4:\full_run:14:M0"
+ 97. Port Connectivity Checks: "encrypt:E0|mix4:\full_run:13:M3"
+ 98. Port Connectivity Checks: "encrypt:E0|mix4:\full_run:13:M2"
+ 99. Port Connectivity Checks: "encrypt:E0|mix4:\full_run:13:M1"
+100. Port Connectivity Checks: "encrypt:E0|mix4:\full_run:13:M0"
+101. Port Connectivity Checks: "encrypt:E0|mix4:\full_run:12:M3"
+102. Port Connectivity Checks: "encrypt:E0|mix4:\full_run:12:M2"
+103. Port Connectivity Checks: "encrypt:E0|mix4:\full_run:12:M1"
+104. Port Connectivity Checks: "encrypt:E0|mix4:\full_run:12:M0"
+105. Port Connectivity Checks: "encrypt:E0|mix4:\full_run:11:M3"
+106. Port Connectivity Checks: "encrypt:E0|mix4:\full_run:11:M2"
+107. Port Connectivity Checks: "encrypt:E0|mix4:\full_run:11:M1"
+108. Port Connectivity Checks: "encrypt:E0|mix4:\full_run:11:M0"
+109. Port Connectivity Checks: "encrypt:E0|mix4:\full_run:10:M3"
+110. Port Connectivity Checks: "encrypt:E0|mix4:\full_run:10:M2"
+111. Port Connectivity Checks: "encrypt:E0|mix4:\full_run:10:M1"
+112. Port Connectivity Checks: "encrypt:E0|mix4:\full_run:10:M0"
+113. Port Connectivity Checks: "encrypt:E0|mix4:\full_run:9:M3"
+114. Port Connectivity Checks: "encrypt:E0|mix4:\full_run:9:M2"
+115. Port Connectivity Checks: "encrypt:E0|mix4:\full_run:9:M1"
+116. Port Connectivity Checks: "encrypt:E0|mix4:\full_run:9:M0"
+117. Port Connectivity Checks: "encrypt:E0|mix4:\full_run:8:M3"
+118. Port Connectivity Checks: "encrypt:E0|mix4:\full_run:8:M2"
+119. Port Connectivity Checks: "encrypt:E0|mix4:\full_run:8:M1"
+120. Port Connectivity Checks: "encrypt:E0|mix4:\full_run:8:M0"
+121. Port Connectivity Checks: "encrypt:E0|mix4:\full_run:7:M3"
+122. Port Connectivity Checks: "encrypt:E0|mix4:\full_run:7:M2"
+123. Port Connectivity Checks: "encrypt:E0|mix4:\full_run:7:M1"
+124. Port Connectivity Checks: "encrypt:E0|mix4:\full_run:7:M0"
+125. Port Connectivity Checks: "encrypt:E0|mix4:\full_run:6:M3"
+126. Port Connectivity Checks: "encrypt:E0|mix4:\full_run:6:M2"
+127. Port Connectivity Checks: "encrypt:E0|mix4:\full_run:6:M1"
+128. Port Connectivity Checks: "encrypt:E0|mix4:\full_run:6:M0"
+129. Port Connectivity Checks: "encrypt:E0|mix4:\full_run:5:M3"
+130. Port Connectivity Checks: "encrypt:E0|mix4:\full_run:5:M2"
+131. Port Connectivity Checks: "encrypt:E0|mix4:\full_run:5:M1"
+132. Port Connectivity Checks: "encrypt:E0|mix4:\full_run:5:M0"
+133. Port Connectivity Checks: "encrypt:E0|mix4:\full_run:4:M3"
+134. Port Connectivity Checks: "encrypt:E0|mix4:\full_run:4:M2"
+135. Port Connectivity Checks: "encrypt:E0|mix4:\full_run:4:M1"
+136. Port Connectivity Checks: "encrypt:E0|mix4:\full_run:4:M0"
+137. Port Connectivity Checks: "encrypt:E0|mix4:\full_run:3:M3"
+138. Port Connectivity Checks: "encrypt:E0|mix4:\full_run:3:M2"
+139. Port Connectivity Checks: "encrypt:E0|mix4:\full_run:3:M1"
+140. Port Connectivity Checks: "encrypt:E0|mix4:\full_run:3:M0"
+141. Port Connectivity Checks: "encrypt:E0|mix4:\full_run:2:M3"
+142. Port Connectivity Checks: "encrypt:E0|mix4:\full_run:2:M2"
+143. Port Connectivity Checks: "encrypt:E0|mix4:\full_run:2:M1"
+144. Port Connectivity Checks: "encrypt:E0|mix4:\full_run:2:M0"
+145. Port Connectivity Checks: "encrypt:E0|mix4:\full_run:1:M3"
+146. Port Connectivity Checks: "encrypt:E0|mix4:\full_run:1:M2"
+147. Port Connectivity Checks: "encrypt:E0|mix4:\full_run:1:M1"
+148. Port Connectivity Checks: "encrypt:E0|mix4:\full_run:1:M0"
+149. Port Connectivity Checks: "encrypt:E0|mix4:\full_run:0:M3"
+150. Port Connectivity Checks: "encrypt:E0|mix4:\full_run:0:M2"
+151. Port Connectivity Checks: "encrypt:E0|mix4:\full_run:0:M1"
+152. Port Connectivity Checks: "encrypt:E0|mix4:\full_run:0:M0|mixer:M3"
+153. Port Connectivity Checks: "encrypt:E0|mix4:\full_run:0:M0|mixer:M2"
+154. Port Connectivity Checks: "encrypt:E0|mix4:\full_run:0:M0|mixer:M1"
+155. Port Connectivity Checks: "encrypt:E0|mix4:\full_run:0:M0|mixer:M0"
+156. Port Connectivity Checks: "encrypt:E0|mix4:\full_run:0:M0"
+157. Elapsed Time Per Partition
+158. Analysis & Synthesis Messages
 
 
 
@@ -47,16 +189,16 @@ applicable agreement for further details.
 +---------------------------------------------------------------------------------------+
 ; Analysis & Synthesis Summary                                                          ;
 +------------------------------------+--------------------------------------------------+
-; Analysis & Synthesis Status        ; Successful - Tue Aug 08 14:45:40 2017            ;
+; Analysis & Synthesis Status        ; Successful - Mon Aug 21 17:28:38 2017            ;
 ; Quartus II 64-Bit Version          ; 13.0.1 Build 232 06/12/2013 SP 1 SJ Full Version ;
 ; Revision Name                      ; 3fish                                            ;
-; Top-level Entity Name              ; mix4                                             ;
+; Top-level Entity Name              ; threefish                                        ;
 ; Family                             ; Cyclone IV GX                                    ;
-; Total logic elements               ; 357                                              ;
-;     Total combinational functions  ; 357                                              ;
+; Total logic elements               ; 751                                              ;
+;     Total combinational functions  ; 751                                              ;
 ;     Dedicated logic registers      ; 0                                                ;
 ; Total registers                    ; 0                                                ;
-; Total pins                         ; 161                                              ;
+; Total pins                         ; 209                                              ;
 ; Total virtual pins                 ; 0                                                ;
 ; Total memory bits                  ; 0                                                ;
 ; Embedded Multiplier 9-bit elements ; 0                                                ;
@@ -73,7 +215,7 @@ applicable agreement for further details.
 +----------------------------------------------------------------------------+--------------------+--------------------+
 ; Option                                                                     ; Setting            ; Default Value      ;
 +----------------------------------------------------------------------------+--------------------+--------------------+
-; Top-level entity name                                                      ; mix4               ; 3fish              ;
+; Top-level entity name                                                      ; threefish          ; 3fish              ;
 ; Family name                                                                ; Cyclone IV GX      ; Cyclone IV GX      ;
 ; Use smart compilation                                                      ; Off                ; Off                ;
 ; Enable parallel Assembler and TimeQuest Timing Analyzer during compilation ; On                 ; On                 ;
@@ -171,14 +313,18 @@ applicable agreement for further details.
 +----------------------------+-------------+
 
 
-+----------------------------------------------------------------------------------------------------------------------------------+
-; Analysis & Synthesis Source Files Read                                                                                           ;
-+----------------------------------+-----------------+-----------------+-------------------------------------------------+---------+
-; File Name with User-Entered Path ; Used in Netlist ; File Type       ; File Name with Absolute Path                    ; Library ;
-+----------------------------------+-----------------+-----------------+-------------------------------------------------+---------+
-; 3fish/mix.vhd                    ; yes             ; User VHDL File  ; C:/Users/8628130/Downloads/3fish/3fish/mix.vhd  ;         ;
-; 3fish/mix4.vhd                   ; yes             ; User VHDL File  ; C:/Users/8628130/Downloads/3fish/3fish/mix4.vhd ;         ;
-+----------------------------------+-----------------+-----------------+-------------------------------------------------+---------+
++-------------------------------------------------------------------------------------------------------------------------------------------+
+; Analysis & Synthesis Source Files Read                                                                                                    ;
++----------------------------------+-----------------+-----------------+----------------------------------------------------------+---------+
+; File Name with User-Entered Path ; Used in Netlist ; File Type       ; File Name with Absolute Path                             ; Library ;
++----------------------------------+-----------------+-----------------+----------------------------------------------------------+---------+
+; 3fish/key_scheduler.vhd          ; yes             ; User VHDL File  ; C:/Users/8628130/Downloads/3fish/3fish/key_scheduler.vhd ;         ;
+; 3fish/mix.vhd                    ; yes             ; User VHDL File  ; C:/Users/8628130/Downloads/3fish/3fish/mix.vhd           ;         ;
+; 3fish/threefish.vhd              ; yes             ; User VHDL File  ; C:/Users/8628130/Downloads/3fish/3fish/threefish.vhd     ;         ;
+; 3fish/mix4.vhd                   ; yes             ; User VHDL File  ; C:/Users/8628130/Downloads/3fish/3fish/mix4.vhd          ;         ;
+; 3fish/encrypt.vhd                ; yes             ; User VHDL File  ; C:/Users/8628130/Downloads/3fish/3fish/encrypt.vhd       ;         ;
+; 3fish/decrypt.vhd                ; yes             ; User VHDL File  ; C:/Users/8628130/Downloads/3fish/3fish/decrypt.vhd       ;         ;
++----------------------------------+-----------------+-----------------+----------------------------------------------------------+---------+
 
 
 +---------------------------------------------+
@@ -186,69 +332,31 @@ applicable agreement for further details.
 +--------------------------+------------------+
 ; Resource                 ; Usage            ;
 +--------------------------+------------------+
-; I/O pins                 ; 161              ;
+; I/O pins                 ; 209              ;
 ; DSP block 9-bit elements ; 0                ;
 ; Maximum fan-out node     ; crypt~input      ;
-; Maximum fan-out          ; 96               ;
-; Total fan-out            ; 1390             ;
-; Average fan-out          ; 2.05             ;
+; Maximum fan-out          ; 84               ;
+; Total fan-out            ; 2706             ;
+; Average fan-out          ; 2.31             ;
 +--------------------------+------------------+
 
 
-+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-; Analysis & Synthesis Resource Utilization by Entity                                                                                                                                     ;
-+----------------------------+-------------------+--------------+-------------+--------------+---------+-----------+-----------+------+--------------+---------------------+--------------+
-; Compilation Hierarchy Node ; LC Combinationals ; LC Registers ; Memory Bits ; DSP Elements ; DSP 9x9 ; DSP 18x18 ; DSP 36x36 ; Pins ; Virtual Pins ; Full Hierarchy Name ; Library Name ;
-+----------------------------+-------------------+--------------+-------------+--------------+---------+-----------+-----------+------+--------------+---------------------+--------------+
-; |mix4                      ; 357 (0)           ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0         ; 161  ; 0            ; |mix4               ; work         ;
-;    |mixer:M0|              ; 89 (89)           ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |mix4|mixer:M0      ; work         ;
-;    |mixer:M1|              ; 90 (90)           ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |mix4|mixer:M1      ; work         ;
-;    |mixer:M2|              ; 87 (87)           ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |mix4|mixer:M2      ; work         ;
-;    |mixer:M3|              ; 91 (91)           ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |mix4|mixer:M3      ; work         ;
-+----------------------------+-------------------+--------------+-------------+--------------+---------+-----------+-----------+------+--------------+---------------------+--------------+
++---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Analysis & Synthesis Resource Utilization by Entity                                                                                                                                                                       ;
++------------------------------+-------------------+--------------+-------------+--------------+---------+-----------+-----------+------+--------------+-----------------------------------------------------+--------------+
+; Compilation Hierarchy Node   ; LC Combinationals ; LC Registers ; Memory Bits ; DSP Elements ; DSP 9x9 ; DSP 18x18 ; DSP 36x36 ; Pins ; Virtual Pins ; Full Hierarchy Name                                 ; Library Name ;
++------------------------------+-------------------+--------------+-------------+--------------+---------+-----------+-----------+------+--------------+-----------------------------------------------------+--------------+
+; |threefish                   ; 751 (105)         ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0         ; 209  ; 0            ; |threefish                                          ; work         ;
+;    |decrypt:D0|              ; 292 (292)         ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |threefish|decrypt:D0                               ; work         ;
+;    |encrypt:E0|              ; 72 (22)           ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |threefish|encrypt:E0                               ; work         ;
+;       |mix4:\full_run:17:M3| ; 50 (0)            ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |threefish|encrypt:E0|mix4:\full_run:17:M3          ; work         ;
+;          |mixer:M0|          ; 25 (25)           ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |threefish|encrypt:E0|mix4:\full_run:17:M3|mixer:M0 ; work         ;
+;          |mixer:M1|          ; 9 (9)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |threefish|encrypt:E0|mix4:\full_run:17:M3|mixer:M1 ; work         ;
+;          |mixer:M2|          ; 8 (8)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |threefish|encrypt:E0|mix4:\full_run:17:M3|mixer:M2 ; work         ;
+;          |mixer:M3|          ; 8 (8)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |threefish|encrypt:E0|mix4:\full_run:17:M3|mixer:M3 ; work         ;
+;    |key_scheduler:scheduler| ; 282 (282)         ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |threefish|key_scheduler:scheduler                  ; work         ;
++------------------------------+-------------------+--------------+-------------+--------------+---------+-----------+-----------+------+--------------+-----------------------------------------------------+--------------+
 Note: For table entries with two numbers listed, the numbers in parentheses indicate the number of resources of the given type used by the specific entity alone. The numbers listed outside of parentheses indicate the total resources of the given type used by the specific entity and all of its sub-entities in the hierarchy.
-
-
-+-------------------------------------------------------------+
-; Logic Cells Representing Combinational Loops                ;
-+--------------------------------------------------------+----+
-; Logic Cell Name                                        ;    ;
-+--------------------------------------------------------+----+
-; mixer:M0|y1[0]                                         ;    ;
-; mixer:M0|aux1~7                                        ;    ;
-; mixer:M0|aux1~8                                        ;    ;
-; mixer:M0|aux1~9                                        ;    ;
-; mixer:M0|aux1~10                                       ;    ;
-; mixer:M0|aux1~11                                       ;    ;
-; mixer:M0|aux1~12                                       ;    ;
-; mixer:M0|aux1~13                                       ;    ;
-; mixer:M1|y1[0]                                         ;    ;
-; mixer:M1|aux1~7                                        ;    ;
-; mixer:M1|aux1~8                                        ;    ;
-; mixer:M1|aux1~9                                        ;    ;
-; mixer:M1|aux1~10                                       ;    ;
-; mixer:M1|aux1~11                                       ;    ;
-; mixer:M1|aux1~12                                       ;    ;
-; mixer:M1|aux1~13                                       ;    ;
-; mixer:M2|y1[0]                                         ;    ;
-; mixer:M2|aux1~7                                        ;    ;
-; mixer:M2|aux1~8                                        ;    ;
-; mixer:M2|aux1~9                                        ;    ;
-; mixer:M2|aux1~10                                       ;    ;
-; mixer:M2|aux1~11                                       ;    ;
-; mixer:M2|aux1~12                                       ;    ;
-; mixer:M2|aux1~13                                       ;    ;
-; mixer:M3|y1[0]                                         ;    ;
-; mixer:M3|aux1~7                                        ;    ;
-; mixer:M3|aux1~8                                        ;    ;
-; mixer:M3|aux1~9                                        ;    ;
-; mixer:M3|aux1~10                                       ;    ;
-; mixer:M3|aux1~11                                       ;    ;
-; mixer:M3|aux1~12                                       ;    ;
-; mixer:M3|aux1~13                                       ;    ;
-; Number of logic cells representing combinational loops ; 32 ;
-+--------------------------------------------------------+----+
-Note: All cells listed above may not be present at the end of synthesis due to various synthesis optimizations.
 
 
 +------------------------------------------------------+
@@ -266,54 +374,1922 @@ Note: All cells listed above may not be present at the end of synthesis due to v
 +----------------------------------------------+-------+
 
 
-+------------------------------------------------------------------------------------------------------------------------------------------+
-; Multiplexer Restructuring Statistics (Restructuring Performed)                                                                           ;
-+--------------------+-----------+---------------+----------------------+------------------------+------------+----------------------------+
-; Multiplexer Inputs ; Bus Width ; Baseline Area ; Area if Restructured ; Saving if Restructured ; Registered ; Example Multiplexer Output ;
-+--------------------+-----------+---------------+----------------------+------------------------+------------+----------------------------+
-; 3:1                ; 8 bits    ; 16 LEs        ; 16 LEs               ; 0 LEs                  ; No         ; |mix4|mixer:M0|y2[2]       ;
-; 3:1                ; 8 bits    ; 16 LEs        ; 16 LEs               ; 0 LEs                  ; No         ; |mix4|mixer:M1|y2[6]       ;
-; 3:1                ; 8 bits    ; 16 LEs        ; 16 LEs               ; 0 LEs                  ; No         ; |mix4|mixer:M2|y2[1]       ;
-; 3:1                ; 8 bits    ; 16 LEs        ; 16 LEs               ; 0 LEs                  ; No         ; |mix4|mixer:M3|y2[4]       ;
-+--------------------+-----------+---------------+----------------------+------------------------+------------+----------------------------+
++-------------------------------------------------------------+
+; Port Connectivity Checks: "decrypt:D0|mix4:\full_run:17:M3" ;
++-------+-------+----------+----------------------------------+
+; Port  ; Type  ; Severity ; Details                          ;
++-------+-------+----------+----------------------------------+
+; round ; Input ; Info     ; Stuck at GND                     ;
+; crypt ; Input ; Info     ; Stuck at GND                     ;
++-------+-------+----------+----------------------------------+
 
 
-+----------------------------------------+
-; Port Connectivity Checks: "mixer:M3"   ;
-+------+-------+----------+--------------+
-; Port ; Type  ; Severity ; Details      ;
-+------+-------+----------+--------------+
-; pair ; Input ; Info     ; Stuck at VCC ;
-+------+-------+----------+--------------+
++-------------------------------------------------------------+
+; Port Connectivity Checks: "decrypt:D0|mix4:\full_run:17:M2" ;
++--------------+-------+----------+---------------------------+
+; Port         ; Type  ; Severity ; Details                   ;
++--------------+-------+----------+---------------------------+
+; round[31..1] ; Input ; Info     ; Stuck at GND              ;
+; round[0]     ; Input ; Info     ; Stuck at VCC              ;
+; crypt        ; Input ; Info     ; Stuck at GND              ;
++--------------+-------+----------+---------------------------+
 
 
-+-------------------------------------------+
-; Port Connectivity Checks: "mixer:M2"      ;
-+---------+-------+----------+--------------+
-; Port    ; Type  ; Severity ; Details      ;
-+---------+-------+----------+--------------+
-; pair[1] ; Input ; Info     ; Stuck at VCC ;
-; pair[0] ; Input ; Info     ; Stuck at GND ;
-+---------+-------+----------+--------------+
++-------------------------------------------------------------+
+; Port Connectivity Checks: "decrypt:D0|mix4:\full_run:17:M1" ;
++--------------+-------+----------+---------------------------+
+; Port         ; Type  ; Severity ; Details                   ;
++--------------+-------+----------+---------------------------+
+; round[31..2] ; Input ; Info     ; Stuck at GND              ;
+; round[1]     ; Input ; Info     ; Stuck at VCC              ;
+; round[0]     ; Input ; Info     ; Stuck at GND              ;
+; crypt        ; Input ; Info     ; Stuck at GND              ;
++--------------+-------+----------+---------------------------+
 
 
-+-------------------------------------------+
-; Port Connectivity Checks: "mixer:M1"      ;
-+---------+-------+----------+--------------+
-; Port    ; Type  ; Severity ; Details      ;
-+---------+-------+----------+--------------+
-; pair[1] ; Input ; Info     ; Stuck at GND ;
-; pair[0] ; Input ; Info     ; Stuck at VCC ;
-+---------+-------+----------+--------------+
++-------------------------------------------------------------+
+; Port Connectivity Checks: "decrypt:D0|mix4:\full_run:17:M0" ;
++--------------+-------+----------+---------------------------+
+; Port         ; Type  ; Severity ; Details                   ;
++--------------+-------+----------+---------------------------+
+; round[1..0]  ; Input ; Info     ; Stuck at VCC              ;
+; round[31..2] ; Input ; Info     ; Stuck at GND              ;
+; crypt        ; Input ; Info     ; Stuck at GND              ;
++--------------+-------+----------+---------------------------+
 
 
-+----------------------------------------+
-; Port Connectivity Checks: "mixer:M0"   ;
-+------+-------+----------+--------------+
-; Port ; Type  ; Severity ; Details      ;
-+------+-------+----------+--------------+
-; pair ; Input ; Info     ; Stuck at GND ;
-+------+-------+----------+--------------+
++-------------------------------------------------------------+
+; Port Connectivity Checks: "decrypt:D0|mix4:\full_run:16:M3" ;
++--------------+-------+----------+---------------------------+
+; Port         ; Type  ; Severity ; Details                   ;
++--------------+-------+----------+---------------------------+
+; round[31..3] ; Input ; Info     ; Stuck at GND              ;
+; round[1..0]  ; Input ; Info     ; Stuck at GND              ;
+; round[2]     ; Input ; Info     ; Stuck at VCC              ;
+; crypt        ; Input ; Info     ; Stuck at GND              ;
++--------------+-------+----------+---------------------------+
+
+
++-------------------------------------------------------------+
+; Port Connectivity Checks: "decrypt:D0|mix4:\full_run:16:M2" ;
++--------------+-------+----------+---------------------------+
+; Port         ; Type  ; Severity ; Details                   ;
++--------------+-------+----------+---------------------------+
+; round[31..3] ; Input ; Info     ; Stuck at GND              ;
+; round[2]     ; Input ; Info     ; Stuck at VCC              ;
+; round[1]     ; Input ; Info     ; Stuck at GND              ;
+; round[0]     ; Input ; Info     ; Stuck at VCC              ;
+; crypt        ; Input ; Info     ; Stuck at GND              ;
++--------------+-------+----------+---------------------------+
+
+
++-------------------------------------------------------------+
+; Port Connectivity Checks: "decrypt:D0|mix4:\full_run:16:M1" ;
++--------------+-------+----------+---------------------------+
+; Port         ; Type  ; Severity ; Details                   ;
++--------------+-------+----------+---------------------------+
+; round[2..1]  ; Input ; Info     ; Stuck at VCC              ;
+; round[31..3] ; Input ; Info     ; Stuck at GND              ;
+; round[0]     ; Input ; Info     ; Stuck at GND              ;
+; crypt        ; Input ; Info     ; Stuck at GND              ;
++--------------+-------+----------+---------------------------+
+
+
++-------------------------------------------------------------+
+; Port Connectivity Checks: "decrypt:D0|mix4:\full_run:16:M0" ;
++--------------+-------+----------+---------------------------+
+; Port         ; Type  ; Severity ; Details                   ;
++--------------+-------+----------+---------------------------+
+; round[2..0]  ; Input ; Info     ; Stuck at VCC              ;
+; round[31..3] ; Input ; Info     ; Stuck at GND              ;
+; crypt        ; Input ; Info     ; Stuck at GND              ;
++--------------+-------+----------+---------------------------+
+
+
++-------------------------------------------------------------+
+; Port Connectivity Checks: "decrypt:D0|mix4:\full_run:15:M3" ;
++--------------+-------+----------+---------------------------+
+; Port         ; Type  ; Severity ; Details                   ;
++--------------+-------+----------+---------------------------+
+; round[31..4] ; Input ; Info     ; Stuck at GND              ;
+; round[2..0]  ; Input ; Info     ; Stuck at GND              ;
+; round[3]     ; Input ; Info     ; Stuck at VCC              ;
+; crypt        ; Input ; Info     ; Stuck at GND              ;
++--------------+-------+----------+---------------------------+
+
+
++-------------------------------------------------------------+
+; Port Connectivity Checks: "decrypt:D0|mix4:\full_run:15:M2" ;
++--------------+-------+----------+---------------------------+
+; Port         ; Type  ; Severity ; Details                   ;
++--------------+-------+----------+---------------------------+
+; round[31..4] ; Input ; Info     ; Stuck at GND              ;
+; round[2..1]  ; Input ; Info     ; Stuck at GND              ;
+; round[3]     ; Input ; Info     ; Stuck at VCC              ;
+; round[0]     ; Input ; Info     ; Stuck at VCC              ;
+; crypt        ; Input ; Info     ; Stuck at GND              ;
++--------------+-------+----------+---------------------------+
+
+
++-------------------------------------------------------------+
+; Port Connectivity Checks: "decrypt:D0|mix4:\full_run:15:M1" ;
++--------------+-------+----------+---------------------------+
+; Port         ; Type  ; Severity ; Details                   ;
++--------------+-------+----------+---------------------------+
+; round[31..4] ; Input ; Info     ; Stuck at GND              ;
+; round[3]     ; Input ; Info     ; Stuck at VCC              ;
+; round[2]     ; Input ; Info     ; Stuck at GND              ;
+; round[1]     ; Input ; Info     ; Stuck at VCC              ;
+; round[0]     ; Input ; Info     ; Stuck at GND              ;
+; crypt        ; Input ; Info     ; Stuck at GND              ;
++--------------+-------+----------+---------------------------+
+
+
++-------------------------------------------------------------+
+; Port Connectivity Checks: "decrypt:D0|mix4:\full_run:15:M0" ;
++--------------+-------+----------+---------------------------+
+; Port         ; Type  ; Severity ; Details                   ;
++--------------+-------+----------+---------------------------+
+; round[1..0]  ; Input ; Info     ; Stuck at VCC              ;
+; round[31..4] ; Input ; Info     ; Stuck at GND              ;
+; round[3]     ; Input ; Info     ; Stuck at VCC              ;
+; round[2]     ; Input ; Info     ; Stuck at GND              ;
+; crypt        ; Input ; Info     ; Stuck at GND              ;
++--------------+-------+----------+---------------------------+
+
+
++-------------------------------------------------------------+
+; Port Connectivity Checks: "decrypt:D0|mix4:\full_run:14:M3" ;
++--------------+-------+----------+---------------------------+
+; Port         ; Type  ; Severity ; Details                   ;
++--------------+-------+----------+---------------------------+
+; round[3..2]  ; Input ; Info     ; Stuck at VCC              ;
+; round[31..4] ; Input ; Info     ; Stuck at GND              ;
+; round[1..0]  ; Input ; Info     ; Stuck at GND              ;
+; crypt        ; Input ; Info     ; Stuck at GND              ;
++--------------+-------+----------+---------------------------+
+
+
++-------------------------------------------------------------+
+; Port Connectivity Checks: "decrypt:D0|mix4:\full_run:14:M2" ;
++--------------+-------+----------+---------------------------+
+; Port         ; Type  ; Severity ; Details                   ;
++--------------+-------+----------+---------------------------+
+; round[3..2]  ; Input ; Info     ; Stuck at VCC              ;
+; round[31..4] ; Input ; Info     ; Stuck at GND              ;
+; round[1]     ; Input ; Info     ; Stuck at GND              ;
+; round[0]     ; Input ; Info     ; Stuck at VCC              ;
+; crypt        ; Input ; Info     ; Stuck at GND              ;
++--------------+-------+----------+---------------------------+
+
+
++-------------------------------------------------------------+
+; Port Connectivity Checks: "decrypt:D0|mix4:\full_run:14:M1" ;
++--------------+-------+----------+---------------------------+
+; Port         ; Type  ; Severity ; Details                   ;
++--------------+-------+----------+---------------------------+
+; round[3..1]  ; Input ; Info     ; Stuck at VCC              ;
+; round[31..4] ; Input ; Info     ; Stuck at GND              ;
+; round[0]     ; Input ; Info     ; Stuck at GND              ;
+; crypt        ; Input ; Info     ; Stuck at GND              ;
++--------------+-------+----------+---------------------------+
+
+
++-------------------------------------------------------------+
+; Port Connectivity Checks: "decrypt:D0|mix4:\full_run:14:M0" ;
++--------------+-------+----------+---------------------------+
+; Port         ; Type  ; Severity ; Details                   ;
++--------------+-------+----------+---------------------------+
+; round[3..0]  ; Input ; Info     ; Stuck at VCC              ;
+; round[31..4] ; Input ; Info     ; Stuck at GND              ;
+; crypt        ; Input ; Info     ; Stuck at GND              ;
++--------------+-------+----------+---------------------------+
+
+
++-------------------------------------------------------------+
+; Port Connectivity Checks: "decrypt:D0|mix4:\full_run:13:M3" ;
++--------------+-------+----------+---------------------------+
+; Port         ; Type  ; Severity ; Details                   ;
++--------------+-------+----------+---------------------------+
+; round[31..5] ; Input ; Info     ; Stuck at GND              ;
+; round[3..0]  ; Input ; Info     ; Stuck at GND              ;
+; round[4]     ; Input ; Info     ; Stuck at VCC              ;
+; crypt        ; Input ; Info     ; Stuck at GND              ;
++--------------+-------+----------+---------------------------+
+
+
++-------------------------------------------------------------+
+; Port Connectivity Checks: "decrypt:D0|mix4:\full_run:13:M2" ;
++--------------+-------+----------+---------------------------+
+; Port         ; Type  ; Severity ; Details                   ;
++--------------+-------+----------+---------------------------+
+; round[31..5] ; Input ; Info     ; Stuck at GND              ;
+; round[3..1]  ; Input ; Info     ; Stuck at GND              ;
+; round[4]     ; Input ; Info     ; Stuck at VCC              ;
+; round[0]     ; Input ; Info     ; Stuck at VCC              ;
+; crypt        ; Input ; Info     ; Stuck at GND              ;
++--------------+-------+----------+---------------------------+
+
+
++-------------------------------------------------------------+
+; Port Connectivity Checks: "decrypt:D0|mix4:\full_run:13:M1" ;
++--------------+-------+----------+---------------------------+
+; Port         ; Type  ; Severity ; Details                   ;
++--------------+-------+----------+---------------------------+
+; round[31..5] ; Input ; Info     ; Stuck at GND              ;
+; round[3..2]  ; Input ; Info     ; Stuck at GND              ;
+; round[4]     ; Input ; Info     ; Stuck at VCC              ;
+; round[1]     ; Input ; Info     ; Stuck at VCC              ;
+; round[0]     ; Input ; Info     ; Stuck at GND              ;
+; crypt        ; Input ; Info     ; Stuck at GND              ;
++--------------+-------+----------+---------------------------+
+
+
++-------------------------------------------------------------+
+; Port Connectivity Checks: "decrypt:D0|mix4:\full_run:13:M0" ;
++--------------+-------+----------+---------------------------+
+; Port         ; Type  ; Severity ; Details                   ;
++--------------+-------+----------+---------------------------+
+; round[1..0]  ; Input ; Info     ; Stuck at VCC              ;
+; round[31..5] ; Input ; Info     ; Stuck at GND              ;
+; round[3..2]  ; Input ; Info     ; Stuck at GND              ;
+; round[4]     ; Input ; Info     ; Stuck at VCC              ;
+; crypt        ; Input ; Info     ; Stuck at GND              ;
++--------------+-------+----------+---------------------------+
+
+
++-------------------------------------------------------------+
+; Port Connectivity Checks: "decrypt:D0|mix4:\full_run:12:M3" ;
++--------------+-------+----------+---------------------------+
+; Port         ; Type  ; Severity ; Details                   ;
++--------------+-------+----------+---------------------------+
+; round[31..5] ; Input ; Info     ; Stuck at GND              ;
+; round[1..0]  ; Input ; Info     ; Stuck at GND              ;
+; round[4]     ; Input ; Info     ; Stuck at VCC              ;
+; round[3]     ; Input ; Info     ; Stuck at GND              ;
+; round[2]     ; Input ; Info     ; Stuck at VCC              ;
+; crypt        ; Input ; Info     ; Stuck at GND              ;
++--------------+-------+----------+---------------------------+
+
+
++-------------------------------------------------------------+
+; Port Connectivity Checks: "decrypt:D0|mix4:\full_run:12:M2" ;
++--------------+-------+----------+---------------------------+
+; Port         ; Type  ; Severity ; Details                   ;
++--------------+-------+----------+---------------------------+
+; round[31..5] ; Input ; Info     ; Stuck at GND              ;
+; round[4]     ; Input ; Info     ; Stuck at VCC              ;
+; round[3]     ; Input ; Info     ; Stuck at GND              ;
+; round[2]     ; Input ; Info     ; Stuck at VCC              ;
+; round[1]     ; Input ; Info     ; Stuck at GND              ;
+; round[0]     ; Input ; Info     ; Stuck at VCC              ;
+; crypt        ; Input ; Info     ; Stuck at GND              ;
++--------------+-------+----------+---------------------------+
+
+
++-------------------------------------------------------------+
+; Port Connectivity Checks: "decrypt:D0|mix4:\full_run:12:M1" ;
++--------------+-------+----------+---------------------------+
+; Port         ; Type  ; Severity ; Details                   ;
++--------------+-------+----------+---------------------------+
+; round[2..1]  ; Input ; Info     ; Stuck at VCC              ;
+; round[31..5] ; Input ; Info     ; Stuck at GND              ;
+; round[4]     ; Input ; Info     ; Stuck at VCC              ;
+; round[3]     ; Input ; Info     ; Stuck at GND              ;
+; round[0]     ; Input ; Info     ; Stuck at GND              ;
+; crypt        ; Input ; Info     ; Stuck at GND              ;
++--------------+-------+----------+---------------------------+
+
+
++-------------------------------------------------------------+
+; Port Connectivity Checks: "decrypt:D0|mix4:\full_run:12:M0" ;
++--------------+-------+----------+---------------------------+
+; Port         ; Type  ; Severity ; Details                   ;
++--------------+-------+----------+---------------------------+
+; round[2..0]  ; Input ; Info     ; Stuck at VCC              ;
+; round[31..5] ; Input ; Info     ; Stuck at GND              ;
+; round[4]     ; Input ; Info     ; Stuck at VCC              ;
+; round[3]     ; Input ; Info     ; Stuck at GND              ;
+; crypt        ; Input ; Info     ; Stuck at GND              ;
++--------------+-------+----------+---------------------------+
+
+
++-------------------------------------------------------------+
+; Port Connectivity Checks: "decrypt:D0|mix4:\full_run:11:M3" ;
++--------------+-------+----------+---------------------------+
+; Port         ; Type  ; Severity ; Details                   ;
++--------------+-------+----------+---------------------------+
+; round[4..3]  ; Input ; Info     ; Stuck at VCC              ;
+; round[31..5] ; Input ; Info     ; Stuck at GND              ;
+; round[2..0]  ; Input ; Info     ; Stuck at GND              ;
+; crypt        ; Input ; Info     ; Stuck at GND              ;
++--------------+-------+----------+---------------------------+
+
+
++-------------------------------------------------------------+
+; Port Connectivity Checks: "decrypt:D0|mix4:\full_run:11:M2" ;
++--------------+-------+----------+---------------------------+
+; Port         ; Type  ; Severity ; Details                   ;
++--------------+-------+----------+---------------------------+
+; round[4..3]  ; Input ; Info     ; Stuck at VCC              ;
+; round[31..5] ; Input ; Info     ; Stuck at GND              ;
+; round[2..1]  ; Input ; Info     ; Stuck at GND              ;
+; round[0]     ; Input ; Info     ; Stuck at VCC              ;
+; crypt        ; Input ; Info     ; Stuck at GND              ;
++--------------+-------+----------+---------------------------+
+
+
++-------------------------------------------------------------+
+; Port Connectivity Checks: "decrypt:D0|mix4:\full_run:11:M1" ;
++--------------+-------+----------+---------------------------+
+; Port         ; Type  ; Severity ; Details                   ;
++--------------+-------+----------+---------------------------+
+; round[4..3]  ; Input ; Info     ; Stuck at VCC              ;
+; round[31..5] ; Input ; Info     ; Stuck at GND              ;
+; round[2]     ; Input ; Info     ; Stuck at GND              ;
+; round[1]     ; Input ; Info     ; Stuck at VCC              ;
+; round[0]     ; Input ; Info     ; Stuck at GND              ;
+; crypt        ; Input ; Info     ; Stuck at GND              ;
++--------------+-------+----------+---------------------------+
+
+
++-------------------------------------------------------------+
+; Port Connectivity Checks: "decrypt:D0|mix4:\full_run:11:M0" ;
++--------------+-------+----------+---------------------------+
+; Port         ; Type  ; Severity ; Details                   ;
++--------------+-------+----------+---------------------------+
+; round[4..3]  ; Input ; Info     ; Stuck at VCC              ;
+; round[1..0]  ; Input ; Info     ; Stuck at VCC              ;
+; round[31..5] ; Input ; Info     ; Stuck at GND              ;
+; round[2]     ; Input ; Info     ; Stuck at GND              ;
+; crypt        ; Input ; Info     ; Stuck at GND              ;
++--------------+-------+----------+---------------------------+
+
+
++-------------------------------------------------------------+
+; Port Connectivity Checks: "decrypt:D0|mix4:\full_run:10:M3" ;
++--------------+-------+----------+---------------------------+
+; Port         ; Type  ; Severity ; Details                   ;
++--------------+-------+----------+---------------------------+
+; round[4..2]  ; Input ; Info     ; Stuck at VCC              ;
+; round[31..5] ; Input ; Info     ; Stuck at GND              ;
+; round[1..0]  ; Input ; Info     ; Stuck at GND              ;
+; crypt        ; Input ; Info     ; Stuck at GND              ;
++--------------+-------+----------+---------------------------+
+
+
++-------------------------------------------------------------+
+; Port Connectivity Checks: "decrypt:D0|mix4:\full_run:10:M2" ;
++--------------+-------+----------+---------------------------+
+; Port         ; Type  ; Severity ; Details                   ;
++--------------+-------+----------+---------------------------+
+; round[4..2]  ; Input ; Info     ; Stuck at VCC              ;
+; round[31..5] ; Input ; Info     ; Stuck at GND              ;
+; round[1]     ; Input ; Info     ; Stuck at GND              ;
+; round[0]     ; Input ; Info     ; Stuck at VCC              ;
+; crypt        ; Input ; Info     ; Stuck at GND              ;
++--------------+-------+----------+---------------------------+
+
+
++-------------------------------------------------------------+
+; Port Connectivity Checks: "decrypt:D0|mix4:\full_run:10:M1" ;
++--------------+-------+----------+---------------------------+
+; Port         ; Type  ; Severity ; Details                   ;
++--------------+-------+----------+---------------------------+
+; round[4..1]  ; Input ; Info     ; Stuck at VCC              ;
+; round[31..5] ; Input ; Info     ; Stuck at GND              ;
+; round[0]     ; Input ; Info     ; Stuck at GND              ;
+; crypt        ; Input ; Info     ; Stuck at GND              ;
++--------------+-------+----------+---------------------------+
+
+
++-------------------------------------------------------------+
+; Port Connectivity Checks: "decrypt:D0|mix4:\full_run:10:M0" ;
++--------------+-------+----------+---------------------------+
+; Port         ; Type  ; Severity ; Details                   ;
++--------------+-------+----------+---------------------------+
+; round[4..0]  ; Input ; Info     ; Stuck at VCC              ;
+; round[31..5] ; Input ; Info     ; Stuck at GND              ;
+; crypt        ; Input ; Info     ; Stuck at GND              ;
++--------------+-------+----------+---------------------------+
+
+
++------------------------------------------------------------+
+; Port Connectivity Checks: "decrypt:D0|mix4:\full_run:9:M3" ;
++--------------+-------+----------+--------------------------+
+; Port         ; Type  ; Severity ; Details                  ;
++--------------+-------+----------+--------------------------+
+; round[31..6] ; Input ; Info     ; Stuck at GND             ;
+; round[4..0]  ; Input ; Info     ; Stuck at GND             ;
+; round[5]     ; Input ; Info     ; Stuck at VCC             ;
+; crypt        ; Input ; Info     ; Stuck at GND             ;
++--------------+-------+----------+--------------------------+
+
+
++------------------------------------------------------------+
+; Port Connectivity Checks: "decrypt:D0|mix4:\full_run:9:M2" ;
++--------------+-------+----------+--------------------------+
+; Port         ; Type  ; Severity ; Details                  ;
++--------------+-------+----------+--------------------------+
+; round[31..6] ; Input ; Info     ; Stuck at GND             ;
+; round[4..1]  ; Input ; Info     ; Stuck at GND             ;
+; round[5]     ; Input ; Info     ; Stuck at VCC             ;
+; round[0]     ; Input ; Info     ; Stuck at VCC             ;
+; crypt        ; Input ; Info     ; Stuck at GND             ;
++--------------+-------+----------+--------------------------+
+
+
++------------------------------------------------------------+
+; Port Connectivity Checks: "decrypt:D0|mix4:\full_run:9:M1" ;
++--------------+-------+----------+--------------------------+
+; Port         ; Type  ; Severity ; Details                  ;
++--------------+-------+----------+--------------------------+
+; round[31..6] ; Input ; Info     ; Stuck at GND             ;
+; round[4..2]  ; Input ; Info     ; Stuck at GND             ;
+; round[5]     ; Input ; Info     ; Stuck at VCC             ;
+; round[1]     ; Input ; Info     ; Stuck at VCC             ;
+; round[0]     ; Input ; Info     ; Stuck at GND             ;
+; crypt        ; Input ; Info     ; Stuck at GND             ;
++--------------+-------+----------+--------------------------+
+
+
++------------------------------------------------------------+
+; Port Connectivity Checks: "decrypt:D0|mix4:\full_run:9:M0" ;
++--------------+-------+----------+--------------------------+
+; Port         ; Type  ; Severity ; Details                  ;
++--------------+-------+----------+--------------------------+
+; round[1..0]  ; Input ; Info     ; Stuck at VCC             ;
+; round[31..6] ; Input ; Info     ; Stuck at GND             ;
+; round[4..2]  ; Input ; Info     ; Stuck at GND             ;
+; round[5]     ; Input ; Info     ; Stuck at VCC             ;
+; crypt        ; Input ; Info     ; Stuck at GND             ;
++--------------+-------+----------+--------------------------+
+
+
++------------------------------------------------------------+
+; Port Connectivity Checks: "decrypt:D0|mix4:\full_run:8:M3" ;
++--------------+-------+----------+--------------------------+
+; Port         ; Type  ; Severity ; Details                  ;
++--------------+-------+----------+--------------------------+
+; round[31..6] ; Input ; Info     ; Stuck at GND             ;
+; round[4..3]  ; Input ; Info     ; Stuck at GND             ;
+; round[1..0]  ; Input ; Info     ; Stuck at GND             ;
+; round[5]     ; Input ; Info     ; Stuck at VCC             ;
+; round[2]     ; Input ; Info     ; Stuck at VCC             ;
+; crypt        ; Input ; Info     ; Stuck at GND             ;
++--------------+-------+----------+--------------------------+
+
+
++------------------------------------------------------------+
+; Port Connectivity Checks: "decrypt:D0|mix4:\full_run:8:M2" ;
++--------------+-------+----------+--------------------------+
+; Port         ; Type  ; Severity ; Details                  ;
++--------------+-------+----------+--------------------------+
+; round[31..6] ; Input ; Info     ; Stuck at GND             ;
+; round[4..3]  ; Input ; Info     ; Stuck at GND             ;
+; round[5]     ; Input ; Info     ; Stuck at VCC             ;
+; round[2]     ; Input ; Info     ; Stuck at VCC             ;
+; round[1]     ; Input ; Info     ; Stuck at GND             ;
+; round[0]     ; Input ; Info     ; Stuck at VCC             ;
+; crypt        ; Input ; Info     ; Stuck at GND             ;
++--------------+-------+----------+--------------------------+
+
+
++------------------------------------------------------------+
+; Port Connectivity Checks: "decrypt:D0|mix4:\full_run:8:M1" ;
++--------------+-------+----------+--------------------------+
+; Port         ; Type  ; Severity ; Details                  ;
++--------------+-------+----------+--------------------------+
+; round[2..1]  ; Input ; Info     ; Stuck at VCC             ;
+; round[31..6] ; Input ; Info     ; Stuck at GND             ;
+; round[4..3]  ; Input ; Info     ; Stuck at GND             ;
+; round[5]     ; Input ; Info     ; Stuck at VCC             ;
+; round[0]     ; Input ; Info     ; Stuck at GND             ;
+; crypt        ; Input ; Info     ; Stuck at GND             ;
++--------------+-------+----------+--------------------------+
+
+
++------------------------------------------------------------+
+; Port Connectivity Checks: "decrypt:D0|mix4:\full_run:8:M0" ;
++--------------+-------+----------+--------------------------+
+; Port         ; Type  ; Severity ; Details                  ;
++--------------+-------+----------+--------------------------+
+; round[2..0]  ; Input ; Info     ; Stuck at VCC             ;
+; round[31..6] ; Input ; Info     ; Stuck at GND             ;
+; round[4..3]  ; Input ; Info     ; Stuck at GND             ;
+; round[5]     ; Input ; Info     ; Stuck at VCC             ;
+; crypt        ; Input ; Info     ; Stuck at GND             ;
++--------------+-------+----------+--------------------------+
+
+
++------------------------------------------------------------+
+; Port Connectivity Checks: "decrypt:D0|mix4:\full_run:7:M3" ;
++--------------+-------+----------+--------------------------+
+; Port         ; Type  ; Severity ; Details                  ;
++--------------+-------+----------+--------------------------+
+; round[31..6] ; Input ; Info     ; Stuck at GND             ;
+; round[2..0]  ; Input ; Info     ; Stuck at GND             ;
+; round[5]     ; Input ; Info     ; Stuck at VCC             ;
+; round[4]     ; Input ; Info     ; Stuck at GND             ;
+; round[3]     ; Input ; Info     ; Stuck at VCC             ;
+; crypt        ; Input ; Info     ; Stuck at GND             ;
++--------------+-------+----------+--------------------------+
+
+
++------------------------------------------------------------+
+; Port Connectivity Checks: "decrypt:D0|mix4:\full_run:7:M2" ;
++--------------+-------+----------+--------------------------+
+; Port         ; Type  ; Severity ; Details                  ;
++--------------+-------+----------+--------------------------+
+; round[31..6] ; Input ; Info     ; Stuck at GND             ;
+; round[2..1]  ; Input ; Info     ; Stuck at GND             ;
+; round[5]     ; Input ; Info     ; Stuck at VCC             ;
+; round[4]     ; Input ; Info     ; Stuck at GND             ;
+; round[3]     ; Input ; Info     ; Stuck at VCC             ;
+; round[0]     ; Input ; Info     ; Stuck at VCC             ;
+; crypt        ; Input ; Info     ; Stuck at GND             ;
++--------------+-------+----------+--------------------------+
+
+
++------------------------------------------------------------+
+; Port Connectivity Checks: "decrypt:D0|mix4:\full_run:7:M1" ;
++--------------+-------+----------+--------------------------+
+; Port         ; Type  ; Severity ; Details                  ;
++--------------+-------+----------+--------------------------+
+; round[31..6] ; Input ; Info     ; Stuck at GND             ;
+; round[5]     ; Input ; Info     ; Stuck at VCC             ;
+; round[4]     ; Input ; Info     ; Stuck at GND             ;
+; round[3]     ; Input ; Info     ; Stuck at VCC             ;
+; round[2]     ; Input ; Info     ; Stuck at GND             ;
+; round[1]     ; Input ; Info     ; Stuck at VCC             ;
+; round[0]     ; Input ; Info     ; Stuck at GND             ;
+; crypt        ; Input ; Info     ; Stuck at GND             ;
++--------------+-------+----------+--------------------------+
+
+
++------------------------------------------------------------+
+; Port Connectivity Checks: "decrypt:D0|mix4:\full_run:7:M0" ;
++--------------+-------+----------+--------------------------+
+; Port         ; Type  ; Severity ; Details                  ;
++--------------+-------+----------+--------------------------+
+; round[1..0]  ; Input ; Info     ; Stuck at VCC             ;
+; round[31..6] ; Input ; Info     ; Stuck at GND             ;
+; round[5]     ; Input ; Info     ; Stuck at VCC             ;
+; round[4]     ; Input ; Info     ; Stuck at GND             ;
+; round[3]     ; Input ; Info     ; Stuck at VCC             ;
+; round[2]     ; Input ; Info     ; Stuck at GND             ;
+; crypt        ; Input ; Info     ; Stuck at GND             ;
++--------------+-------+----------+--------------------------+
+
+
++------------------------------------------------------------+
+; Port Connectivity Checks: "decrypt:D0|mix4:\full_run:6:M3" ;
++--------------+-------+----------+--------------------------+
+; Port         ; Type  ; Severity ; Details                  ;
++--------------+-------+----------+--------------------------+
+; round[3..2]  ; Input ; Info     ; Stuck at VCC             ;
+; round[31..6] ; Input ; Info     ; Stuck at GND             ;
+; round[1..0]  ; Input ; Info     ; Stuck at GND             ;
+; round[5]     ; Input ; Info     ; Stuck at VCC             ;
+; round[4]     ; Input ; Info     ; Stuck at GND             ;
+; crypt        ; Input ; Info     ; Stuck at GND             ;
++--------------+-------+----------+--------------------------+
+
+
++------------------------------------------------------------+
+; Port Connectivity Checks: "decrypt:D0|mix4:\full_run:6:M2" ;
++--------------+-------+----------+--------------------------+
+; Port         ; Type  ; Severity ; Details                  ;
++--------------+-------+----------+--------------------------+
+; round[3..2]  ; Input ; Info     ; Stuck at VCC             ;
+; round[31..6] ; Input ; Info     ; Stuck at GND             ;
+; round[5]     ; Input ; Info     ; Stuck at VCC             ;
+; round[4]     ; Input ; Info     ; Stuck at GND             ;
+; round[1]     ; Input ; Info     ; Stuck at GND             ;
+; round[0]     ; Input ; Info     ; Stuck at VCC             ;
+; crypt        ; Input ; Info     ; Stuck at GND             ;
++--------------+-------+----------+--------------------------+
+
+
++------------------------------------------------------------+
+; Port Connectivity Checks: "decrypt:D0|mix4:\full_run:6:M1" ;
++--------------+-------+----------+--------------------------+
+; Port         ; Type  ; Severity ; Details                  ;
++--------------+-------+----------+--------------------------+
+; round[3..1]  ; Input ; Info     ; Stuck at VCC             ;
+; round[31..6] ; Input ; Info     ; Stuck at GND             ;
+; round[5]     ; Input ; Info     ; Stuck at VCC             ;
+; round[4]     ; Input ; Info     ; Stuck at GND             ;
+; round[0]     ; Input ; Info     ; Stuck at GND             ;
+; crypt        ; Input ; Info     ; Stuck at GND             ;
++--------------+-------+----------+--------------------------+
+
+
++------------------------------------------------------------+
+; Port Connectivity Checks: "decrypt:D0|mix4:\full_run:6:M0" ;
++--------------+-------+----------+--------------------------+
+; Port         ; Type  ; Severity ; Details                  ;
++--------------+-------+----------+--------------------------+
+; round[3..0]  ; Input ; Info     ; Stuck at VCC             ;
+; round[31..6] ; Input ; Info     ; Stuck at GND             ;
+; round[5]     ; Input ; Info     ; Stuck at VCC             ;
+; round[4]     ; Input ; Info     ; Stuck at GND             ;
+; crypt        ; Input ; Info     ; Stuck at GND             ;
++--------------+-------+----------+--------------------------+
+
+
++------------------------------------------------------------+
+; Port Connectivity Checks: "decrypt:D0|mix4:\full_run:5:M3" ;
++--------------+-------+----------+--------------------------+
+; Port         ; Type  ; Severity ; Details                  ;
++--------------+-------+----------+--------------------------+
+; round[5..4]  ; Input ; Info     ; Stuck at VCC             ;
+; round[31..6] ; Input ; Info     ; Stuck at GND             ;
+; round[3..0]  ; Input ; Info     ; Stuck at GND             ;
+; crypt        ; Input ; Info     ; Stuck at GND             ;
++--------------+-------+----------+--------------------------+
+
+
++------------------------------------------------------------+
+; Port Connectivity Checks: "decrypt:D0|mix4:\full_run:5:M2" ;
++--------------+-------+----------+--------------------------+
+; Port         ; Type  ; Severity ; Details                  ;
++--------------+-------+----------+--------------------------+
+; round[5..4]  ; Input ; Info     ; Stuck at VCC             ;
+; round[31..6] ; Input ; Info     ; Stuck at GND             ;
+; round[3..1]  ; Input ; Info     ; Stuck at GND             ;
+; round[0]     ; Input ; Info     ; Stuck at VCC             ;
+; crypt        ; Input ; Info     ; Stuck at GND             ;
++--------------+-------+----------+--------------------------+
+
+
++------------------------------------------------------------+
+; Port Connectivity Checks: "decrypt:D0|mix4:\full_run:5:M1" ;
++--------------+-------+----------+--------------------------+
+; Port         ; Type  ; Severity ; Details                  ;
++--------------+-------+----------+--------------------------+
+; round[5..4]  ; Input ; Info     ; Stuck at VCC             ;
+; round[31..6] ; Input ; Info     ; Stuck at GND             ;
+; round[3..2]  ; Input ; Info     ; Stuck at GND             ;
+; round[1]     ; Input ; Info     ; Stuck at VCC             ;
+; round[0]     ; Input ; Info     ; Stuck at GND             ;
+; crypt        ; Input ; Info     ; Stuck at GND             ;
++--------------+-------+----------+--------------------------+
+
+
++------------------------------------------------------------+
+; Port Connectivity Checks: "decrypt:D0|mix4:\full_run:5:M0" ;
++--------------+-------+----------+--------------------------+
+; Port         ; Type  ; Severity ; Details                  ;
++--------------+-------+----------+--------------------------+
+; round[5..4]  ; Input ; Info     ; Stuck at VCC             ;
+; round[1..0]  ; Input ; Info     ; Stuck at VCC             ;
+; round[31..6] ; Input ; Info     ; Stuck at GND             ;
+; round[3..2]  ; Input ; Info     ; Stuck at GND             ;
+; crypt        ; Input ; Info     ; Stuck at GND             ;
++--------------+-------+----------+--------------------------+
+
+
++------------------------------------------------------------+
+; Port Connectivity Checks: "decrypt:D0|mix4:\full_run:4:M3" ;
++--------------+-------+----------+--------------------------+
+; Port         ; Type  ; Severity ; Details                  ;
++--------------+-------+----------+--------------------------+
+; round[5..4]  ; Input ; Info     ; Stuck at VCC             ;
+; round[31..6] ; Input ; Info     ; Stuck at GND             ;
+; round[1..0]  ; Input ; Info     ; Stuck at GND             ;
+; round[3]     ; Input ; Info     ; Stuck at GND             ;
+; round[2]     ; Input ; Info     ; Stuck at VCC             ;
+; crypt        ; Input ; Info     ; Stuck at GND             ;
++--------------+-------+----------+--------------------------+
+
+
++------------------------------------------------------------+
+; Port Connectivity Checks: "decrypt:D0|mix4:\full_run:4:M2" ;
++--------------+-------+----------+--------------------------+
+; Port         ; Type  ; Severity ; Details                  ;
++--------------+-------+----------+--------------------------+
+; round[5..4]  ; Input ; Info     ; Stuck at VCC             ;
+; round[31..6] ; Input ; Info     ; Stuck at GND             ;
+; round[3]     ; Input ; Info     ; Stuck at GND             ;
+; round[2]     ; Input ; Info     ; Stuck at VCC             ;
+; round[1]     ; Input ; Info     ; Stuck at GND             ;
+; round[0]     ; Input ; Info     ; Stuck at VCC             ;
+; crypt        ; Input ; Info     ; Stuck at GND             ;
++--------------+-------+----------+--------------------------+
+
+
++------------------------------------------------------------+
+; Port Connectivity Checks: "decrypt:D0|mix4:\full_run:4:M1" ;
++--------------+-------+----------+--------------------------+
+; Port         ; Type  ; Severity ; Details                  ;
++--------------+-------+----------+--------------------------+
+; round[5..4]  ; Input ; Info     ; Stuck at VCC             ;
+; round[2..1]  ; Input ; Info     ; Stuck at VCC             ;
+; round[31..6] ; Input ; Info     ; Stuck at GND             ;
+; round[3]     ; Input ; Info     ; Stuck at GND             ;
+; round[0]     ; Input ; Info     ; Stuck at GND             ;
+; crypt        ; Input ; Info     ; Stuck at GND             ;
++--------------+-------+----------+--------------------------+
+
+
++------------------------------------------------------------+
+; Port Connectivity Checks: "decrypt:D0|mix4:\full_run:4:M0" ;
++--------------+-------+----------+--------------------------+
+; Port         ; Type  ; Severity ; Details                  ;
++--------------+-------+----------+--------------------------+
+; round[5..4]  ; Input ; Info     ; Stuck at VCC             ;
+; round[2..0]  ; Input ; Info     ; Stuck at VCC             ;
+; round[31..6] ; Input ; Info     ; Stuck at GND             ;
+; round[3]     ; Input ; Info     ; Stuck at GND             ;
+; crypt        ; Input ; Info     ; Stuck at GND             ;
++--------------+-------+----------+--------------------------+
+
+
++------------------------------------------------------------+
+; Port Connectivity Checks: "decrypt:D0|mix4:\full_run:3:M3" ;
++--------------+-------+----------+--------------------------+
+; Port         ; Type  ; Severity ; Details                  ;
++--------------+-------+----------+--------------------------+
+; round[5..3]  ; Input ; Info     ; Stuck at VCC             ;
+; round[31..6] ; Input ; Info     ; Stuck at GND             ;
+; round[2..0]  ; Input ; Info     ; Stuck at GND             ;
+; crypt        ; Input ; Info     ; Stuck at GND             ;
++--------------+-------+----------+--------------------------+
+
+
++------------------------------------------------------------+
+; Port Connectivity Checks: "decrypt:D0|mix4:\full_run:3:M2" ;
++--------------+-------+----------+--------------------------+
+; Port         ; Type  ; Severity ; Details                  ;
++--------------+-------+----------+--------------------------+
+; round[5..3]  ; Input ; Info     ; Stuck at VCC             ;
+; round[31..6] ; Input ; Info     ; Stuck at GND             ;
+; round[2..1]  ; Input ; Info     ; Stuck at GND             ;
+; round[0]     ; Input ; Info     ; Stuck at VCC             ;
+; crypt        ; Input ; Info     ; Stuck at GND             ;
++--------------+-------+----------+--------------------------+
+
+
++------------------------------------------------------------+
+; Port Connectivity Checks: "decrypt:D0|mix4:\full_run:3:M1" ;
++--------------+-------+----------+--------------------------+
+; Port         ; Type  ; Severity ; Details                  ;
++--------------+-------+----------+--------------------------+
+; round[5..3]  ; Input ; Info     ; Stuck at VCC             ;
+; round[31..6] ; Input ; Info     ; Stuck at GND             ;
+; round[2]     ; Input ; Info     ; Stuck at GND             ;
+; round[1]     ; Input ; Info     ; Stuck at VCC             ;
+; round[0]     ; Input ; Info     ; Stuck at GND             ;
+; crypt        ; Input ; Info     ; Stuck at GND             ;
++--------------+-------+----------+--------------------------+
+
+
++------------------------------------------------------------+
+; Port Connectivity Checks: "decrypt:D0|mix4:\full_run:3:M0" ;
++--------------+-------+----------+--------------------------+
+; Port         ; Type  ; Severity ; Details                  ;
++--------------+-------+----------+--------------------------+
+; round[5..3]  ; Input ; Info     ; Stuck at VCC             ;
+; round[1..0]  ; Input ; Info     ; Stuck at VCC             ;
+; round[31..6] ; Input ; Info     ; Stuck at GND             ;
+; round[2]     ; Input ; Info     ; Stuck at GND             ;
+; crypt        ; Input ; Info     ; Stuck at GND             ;
++--------------+-------+----------+--------------------------+
+
+
++------------------------------------------------------------+
+; Port Connectivity Checks: "decrypt:D0|mix4:\full_run:2:M3" ;
++--------------+-------+----------+--------------------------+
+; Port         ; Type  ; Severity ; Details                  ;
++--------------+-------+----------+--------------------------+
+; round[5..2]  ; Input ; Info     ; Stuck at VCC             ;
+; round[31..6] ; Input ; Info     ; Stuck at GND             ;
+; round[1..0]  ; Input ; Info     ; Stuck at GND             ;
+; crypt        ; Input ; Info     ; Stuck at GND             ;
++--------------+-------+----------+--------------------------+
+
+
++------------------------------------------------------------+
+; Port Connectivity Checks: "decrypt:D0|mix4:\full_run:2:M2" ;
++--------------+-------+----------+--------------------------+
+; Port         ; Type  ; Severity ; Details                  ;
++--------------+-------+----------+--------------------------+
+; round[5..2]  ; Input ; Info     ; Stuck at VCC             ;
+; round[31..6] ; Input ; Info     ; Stuck at GND             ;
+; round[1]     ; Input ; Info     ; Stuck at GND             ;
+; round[0]     ; Input ; Info     ; Stuck at VCC             ;
+; crypt        ; Input ; Info     ; Stuck at GND             ;
++--------------+-------+----------+--------------------------+
+
+
++------------------------------------------------------------+
+; Port Connectivity Checks: "decrypt:D0|mix4:\full_run:2:M1" ;
++--------------+-------+----------+--------------------------+
+; Port         ; Type  ; Severity ; Details                  ;
++--------------+-------+----------+--------------------------+
+; round[5..1]  ; Input ; Info     ; Stuck at VCC             ;
+; round[31..6] ; Input ; Info     ; Stuck at GND             ;
+; round[0]     ; Input ; Info     ; Stuck at GND             ;
+; crypt        ; Input ; Info     ; Stuck at GND             ;
++--------------+-------+----------+--------------------------+
+
+
++------------------------------------------------------------+
+; Port Connectivity Checks: "decrypt:D0|mix4:\full_run:2:M0" ;
++--------------+-------+----------+--------------------------+
+; Port         ; Type  ; Severity ; Details                  ;
++--------------+-------+----------+--------------------------+
+; round[5..0]  ; Input ; Info     ; Stuck at VCC             ;
+; round[31..6] ; Input ; Info     ; Stuck at GND             ;
+; crypt        ; Input ; Info     ; Stuck at GND             ;
++--------------+-------+----------+--------------------------+
+
+
++------------------------------------------------------------+
+; Port Connectivity Checks: "decrypt:D0|mix4:\full_run:1:M3" ;
++--------------+-------+----------+--------------------------+
+; Port         ; Type  ; Severity ; Details                  ;
++--------------+-------+----------+--------------------------+
+; round[31..7] ; Input ; Info     ; Stuck at GND             ;
+; round[5..0]  ; Input ; Info     ; Stuck at GND             ;
+; round[6]     ; Input ; Info     ; Stuck at VCC             ;
+; crypt        ; Input ; Info     ; Stuck at GND             ;
++--------------+-------+----------+--------------------------+
+
+
++------------------------------------------------------------+
+; Port Connectivity Checks: "decrypt:D0|mix4:\full_run:1:M2" ;
++--------------+-------+----------+--------------------------+
+; Port         ; Type  ; Severity ; Details                  ;
++--------------+-------+----------+--------------------------+
+; round[31..7] ; Input ; Info     ; Stuck at GND             ;
+; round[5..1]  ; Input ; Info     ; Stuck at GND             ;
+; round[6]     ; Input ; Info     ; Stuck at VCC             ;
+; round[0]     ; Input ; Info     ; Stuck at VCC             ;
+; crypt        ; Input ; Info     ; Stuck at GND             ;
++--------------+-------+----------+--------------------------+
+
+
++------------------------------------------------------------+
+; Port Connectivity Checks: "decrypt:D0|mix4:\full_run:1:M1" ;
++--------------+-------+----------+--------------------------+
+; Port         ; Type  ; Severity ; Details                  ;
++--------------+-------+----------+--------------------------+
+; round[31..7] ; Input ; Info     ; Stuck at GND             ;
+; round[5..2]  ; Input ; Info     ; Stuck at GND             ;
+; round[6]     ; Input ; Info     ; Stuck at VCC             ;
+; round[1]     ; Input ; Info     ; Stuck at VCC             ;
+; round[0]     ; Input ; Info     ; Stuck at GND             ;
+; crypt        ; Input ; Info     ; Stuck at GND             ;
++--------------+-------+----------+--------------------------+
+
+
++------------------------------------------------------------+
+; Port Connectivity Checks: "decrypt:D0|mix4:\full_run:1:M0" ;
++--------------+-------+----------+--------------------------+
+; Port         ; Type  ; Severity ; Details                  ;
++--------------+-------+----------+--------------------------+
+; round[1..0]  ; Input ; Info     ; Stuck at VCC             ;
+; round[31..7] ; Input ; Info     ; Stuck at GND             ;
+; round[5..2]  ; Input ; Info     ; Stuck at GND             ;
+; round[6]     ; Input ; Info     ; Stuck at VCC             ;
+; crypt        ; Input ; Info     ; Stuck at GND             ;
++--------------+-------+----------+--------------------------+
+
+
++------------------------------------------------------------+
+; Port Connectivity Checks: "decrypt:D0|mix4:\full_run:0:M3" ;
++--------------+-------+----------+--------------------------+
+; Port         ; Type  ; Severity ; Details                  ;
++--------------+-------+----------+--------------------------+
+; round[31..7] ; Input ; Info     ; Stuck at GND             ;
+; round[5..3]  ; Input ; Info     ; Stuck at GND             ;
+; round[1..0]  ; Input ; Info     ; Stuck at GND             ;
+; round[6]     ; Input ; Info     ; Stuck at VCC             ;
+; round[2]     ; Input ; Info     ; Stuck at VCC             ;
+; crypt        ; Input ; Info     ; Stuck at GND             ;
++--------------+-------+----------+--------------------------+
+
+
++------------------------------------------------------------+
+; Port Connectivity Checks: "decrypt:D0|mix4:\full_run:0:M2" ;
++--------------+-------+----------+--------------------------+
+; Port         ; Type  ; Severity ; Details                  ;
++--------------+-------+----------+--------------------------+
+; round[31..7] ; Input ; Info     ; Stuck at GND             ;
+; round[5..3]  ; Input ; Info     ; Stuck at GND             ;
+; round[6]     ; Input ; Info     ; Stuck at VCC             ;
+; round[2]     ; Input ; Info     ; Stuck at VCC             ;
+; round[1]     ; Input ; Info     ; Stuck at GND             ;
+; round[0]     ; Input ; Info     ; Stuck at VCC             ;
+; crypt        ; Input ; Info     ; Stuck at GND             ;
++--------------+-------+----------+--------------------------+
+
+
++------------------------------------------------------------+
+; Port Connectivity Checks: "decrypt:D0|mix4:\full_run:0:M1" ;
++--------------+-------+----------+--------------------------+
+; Port         ; Type  ; Severity ; Details                  ;
++--------------+-------+----------+--------------------------+
+; round[2..1]  ; Input ; Info     ; Stuck at VCC             ;
+; round[31..7] ; Input ; Info     ; Stuck at GND             ;
+; round[5..3]  ; Input ; Info     ; Stuck at GND             ;
+; round[6]     ; Input ; Info     ; Stuck at VCC             ;
+; round[0]     ; Input ; Info     ; Stuck at GND             ;
+; crypt        ; Input ; Info     ; Stuck at GND             ;
++--------------+-------+----------+--------------------------+
+
+
++------------------------------------------------------------+
+; Port Connectivity Checks: "decrypt:D0|mix4:\full_run:0:M0" ;
++--------------+-------+----------+--------------------------+
+; Port         ; Type  ; Severity ; Details                  ;
++--------------+-------+----------+--------------------------+
+; round[2..0]  ; Input ; Info     ; Stuck at VCC             ;
+; round[31..7] ; Input ; Info     ; Stuck at GND             ;
+; round[5..3]  ; Input ; Info     ; Stuck at GND             ;
+; round[6]     ; Input ; Info     ; Stuck at VCC             ;
+; crypt        ; Input ; Info     ; Stuck at GND             ;
++--------------+-------+----------+--------------------------+
+
+
++-------------------------------------------------------------+
+; Port Connectivity Checks: "encrypt:E0|mix4:\full_run:17:M3" ;
++--------------+-------+----------+---------------------------+
+; Port         ; Type  ; Severity ; Details                   ;
++--------------+-------+----------+---------------------------+
+; round[2..0]  ; Input ; Info     ; Stuck at VCC              ;
+; round[31..7] ; Input ; Info     ; Stuck at GND              ;
+; round[5..3]  ; Input ; Info     ; Stuck at GND              ;
+; round[6]     ; Input ; Info     ; Stuck at VCC              ;
+; crypt        ; Input ; Info     ; Stuck at VCC              ;
++--------------+-------+----------+---------------------------+
+
+
++-------------------------------------------------------------+
+; Port Connectivity Checks: "encrypt:E0|mix4:\full_run:17:M2" ;
++--------------+-------+----------+---------------------------+
+; Port         ; Type  ; Severity ; Details                   ;
++--------------+-------+----------+---------------------------+
+; round[2..1]  ; Input ; Info     ; Stuck at VCC              ;
+; round[31..7] ; Input ; Info     ; Stuck at GND              ;
+; round[5..3]  ; Input ; Info     ; Stuck at GND              ;
+; round[6]     ; Input ; Info     ; Stuck at VCC              ;
+; round[0]     ; Input ; Info     ; Stuck at GND              ;
+; crypt        ; Input ; Info     ; Stuck at VCC              ;
++--------------+-------+----------+---------------------------+
+
+
++-------------------------------------------------------------+
+; Port Connectivity Checks: "encrypt:E0|mix4:\full_run:17:M1" ;
++--------------+-------+----------+---------------------------+
+; Port         ; Type  ; Severity ; Details                   ;
++--------------+-------+----------+---------------------------+
+; round[31..7] ; Input ; Info     ; Stuck at GND              ;
+; round[5..3]  ; Input ; Info     ; Stuck at GND              ;
+; round[6]     ; Input ; Info     ; Stuck at VCC              ;
+; round[2]     ; Input ; Info     ; Stuck at VCC              ;
+; round[1]     ; Input ; Info     ; Stuck at GND              ;
+; round[0]     ; Input ; Info     ; Stuck at VCC              ;
+; crypt        ; Input ; Info     ; Stuck at VCC              ;
++--------------+-------+----------+---------------------------+
+
+
++-------------------------------------------------------------+
+; Port Connectivity Checks: "encrypt:E0|mix4:\full_run:17:M0" ;
++--------------+-------+----------+---------------------------+
+; Port         ; Type  ; Severity ; Details                   ;
++--------------+-------+----------+---------------------------+
+; round[31..7] ; Input ; Info     ; Stuck at GND              ;
+; round[5..3]  ; Input ; Info     ; Stuck at GND              ;
+; round[1..0]  ; Input ; Info     ; Stuck at GND              ;
+; round[6]     ; Input ; Info     ; Stuck at VCC              ;
+; round[2]     ; Input ; Info     ; Stuck at VCC              ;
+; crypt        ; Input ; Info     ; Stuck at VCC              ;
++--------------+-------+----------+---------------------------+
+
+
++-------------------------------------------------------------+
+; Port Connectivity Checks: "encrypt:E0|mix4:\full_run:16:M3" ;
++--------------+-------+----------+---------------------------+
+; Port         ; Type  ; Severity ; Details                   ;
++--------------+-------+----------+---------------------------+
+; round[1..0]  ; Input ; Info     ; Stuck at VCC              ;
+; round[31..7] ; Input ; Info     ; Stuck at GND              ;
+; round[5..2]  ; Input ; Info     ; Stuck at GND              ;
+; round[6]     ; Input ; Info     ; Stuck at VCC              ;
+; crypt        ; Input ; Info     ; Stuck at VCC              ;
++--------------+-------+----------+---------------------------+
+
+
++-------------------------------------------------------------+
+; Port Connectivity Checks: "encrypt:E0|mix4:\full_run:16:M2" ;
++--------------+-------+----------+---------------------------+
+; Port         ; Type  ; Severity ; Details                   ;
++--------------+-------+----------+---------------------------+
+; round[31..7] ; Input ; Info     ; Stuck at GND              ;
+; round[5..2]  ; Input ; Info     ; Stuck at GND              ;
+; round[6]     ; Input ; Info     ; Stuck at VCC              ;
+; round[1]     ; Input ; Info     ; Stuck at VCC              ;
+; round[0]     ; Input ; Info     ; Stuck at GND              ;
+; crypt        ; Input ; Info     ; Stuck at VCC              ;
++--------------+-------+----------+---------------------------+
+
+
++-------------------------------------------------------------+
+; Port Connectivity Checks: "encrypt:E0|mix4:\full_run:16:M1" ;
++--------------+-------+----------+---------------------------+
+; Port         ; Type  ; Severity ; Details                   ;
++--------------+-------+----------+---------------------------+
+; round[31..7] ; Input ; Info     ; Stuck at GND              ;
+; round[5..1]  ; Input ; Info     ; Stuck at GND              ;
+; round[6]     ; Input ; Info     ; Stuck at VCC              ;
+; round[0]     ; Input ; Info     ; Stuck at VCC              ;
+; crypt        ; Input ; Info     ; Stuck at VCC              ;
++--------------+-------+----------+---------------------------+
+
+
++-------------------------------------------------------------+
+; Port Connectivity Checks: "encrypt:E0|mix4:\full_run:16:M0" ;
++--------------+-------+----------+---------------------------+
+; Port         ; Type  ; Severity ; Details                   ;
++--------------+-------+----------+---------------------------+
+; round[31..7] ; Input ; Info     ; Stuck at GND              ;
+; round[5..0]  ; Input ; Info     ; Stuck at GND              ;
+; round[6]     ; Input ; Info     ; Stuck at VCC              ;
+; crypt        ; Input ; Info     ; Stuck at VCC              ;
++--------------+-------+----------+---------------------------+
+
+
++-------------------------------------------------------------+
+; Port Connectivity Checks: "encrypt:E0|mix4:\full_run:15:M3" ;
++--------------+-------+----------+---------------------------+
+; Port         ; Type  ; Severity ; Details                   ;
++--------------+-------+----------+---------------------------+
+; round[5..0]  ; Input ; Info     ; Stuck at VCC              ;
+; round[31..6] ; Input ; Info     ; Stuck at GND              ;
+; crypt        ; Input ; Info     ; Stuck at VCC              ;
++--------------+-------+----------+---------------------------+
+
+
++-------------------------------------------------------------+
+; Port Connectivity Checks: "encrypt:E0|mix4:\full_run:15:M2" ;
++--------------+-------+----------+---------------------------+
+; Port         ; Type  ; Severity ; Details                   ;
++--------------+-------+----------+---------------------------+
+; round[5..1]  ; Input ; Info     ; Stuck at VCC              ;
+; round[31..6] ; Input ; Info     ; Stuck at GND              ;
+; round[0]     ; Input ; Info     ; Stuck at GND              ;
+; crypt        ; Input ; Info     ; Stuck at VCC              ;
++--------------+-------+----------+---------------------------+
+
+
++-------------------------------------------------------------+
+; Port Connectivity Checks: "encrypt:E0|mix4:\full_run:15:M1" ;
++--------------+-------+----------+---------------------------+
+; Port         ; Type  ; Severity ; Details                   ;
++--------------+-------+----------+---------------------------+
+; round[5..2]  ; Input ; Info     ; Stuck at VCC              ;
+; round[31..6] ; Input ; Info     ; Stuck at GND              ;
+; round[1]     ; Input ; Info     ; Stuck at GND              ;
+; round[0]     ; Input ; Info     ; Stuck at VCC              ;
+; crypt        ; Input ; Info     ; Stuck at VCC              ;
++--------------+-------+----------+---------------------------+
+
+
++-------------------------------------------------------------+
+; Port Connectivity Checks: "encrypt:E0|mix4:\full_run:15:M0" ;
++--------------+-------+----------+---------------------------+
+; Port         ; Type  ; Severity ; Details                   ;
++--------------+-------+----------+---------------------------+
+; round[5..2]  ; Input ; Info     ; Stuck at VCC              ;
+; round[31..6] ; Input ; Info     ; Stuck at GND              ;
+; round[1..0]  ; Input ; Info     ; Stuck at GND              ;
+; crypt        ; Input ; Info     ; Stuck at VCC              ;
++--------------+-------+----------+---------------------------+
+
+
++-------------------------------------------------------------+
+; Port Connectivity Checks: "encrypt:E0|mix4:\full_run:14:M3" ;
++--------------+-------+----------+---------------------------+
+; Port         ; Type  ; Severity ; Details                   ;
++--------------+-------+----------+---------------------------+
+; round[5..3]  ; Input ; Info     ; Stuck at VCC              ;
+; round[1..0]  ; Input ; Info     ; Stuck at VCC              ;
+; round[31..6] ; Input ; Info     ; Stuck at GND              ;
+; round[2]     ; Input ; Info     ; Stuck at GND              ;
+; crypt        ; Input ; Info     ; Stuck at VCC              ;
++--------------+-------+----------+---------------------------+
+
+
++-------------------------------------------------------------+
+; Port Connectivity Checks: "encrypt:E0|mix4:\full_run:14:M2" ;
++--------------+-------+----------+---------------------------+
+; Port         ; Type  ; Severity ; Details                   ;
++--------------+-------+----------+---------------------------+
+; round[5..3]  ; Input ; Info     ; Stuck at VCC              ;
+; round[31..6] ; Input ; Info     ; Stuck at GND              ;
+; round[2]     ; Input ; Info     ; Stuck at GND              ;
+; round[1]     ; Input ; Info     ; Stuck at VCC              ;
+; round[0]     ; Input ; Info     ; Stuck at GND              ;
+; crypt        ; Input ; Info     ; Stuck at VCC              ;
++--------------+-------+----------+---------------------------+
+
+
++-------------------------------------------------------------+
+; Port Connectivity Checks: "encrypt:E0|mix4:\full_run:14:M1" ;
++--------------+-------+----------+---------------------------+
+; Port         ; Type  ; Severity ; Details                   ;
++--------------+-------+----------+---------------------------+
+; round[5..3]  ; Input ; Info     ; Stuck at VCC              ;
+; round[31..6] ; Input ; Info     ; Stuck at GND              ;
+; round[2..1]  ; Input ; Info     ; Stuck at GND              ;
+; round[0]     ; Input ; Info     ; Stuck at VCC              ;
+; crypt        ; Input ; Info     ; Stuck at VCC              ;
++--------------+-------+----------+---------------------------+
+
+
++-------------------------------------------------------------+
+; Port Connectivity Checks: "encrypt:E0|mix4:\full_run:14:M0" ;
++--------------+-------+----------+---------------------------+
+; Port         ; Type  ; Severity ; Details                   ;
++--------------+-------+----------+---------------------------+
+; round[5..3]  ; Input ; Info     ; Stuck at VCC              ;
+; round[31..6] ; Input ; Info     ; Stuck at GND              ;
+; round[2..0]  ; Input ; Info     ; Stuck at GND              ;
+; crypt        ; Input ; Info     ; Stuck at VCC              ;
++--------------+-------+----------+---------------------------+
+
+
++-------------------------------------------------------------+
+; Port Connectivity Checks: "encrypt:E0|mix4:\full_run:13:M3" ;
++--------------+-------+----------+---------------------------+
+; Port         ; Type  ; Severity ; Details                   ;
++--------------+-------+----------+---------------------------+
+; round[5..4]  ; Input ; Info     ; Stuck at VCC              ;
+; round[2..0]  ; Input ; Info     ; Stuck at VCC              ;
+; round[31..6] ; Input ; Info     ; Stuck at GND              ;
+; round[3]     ; Input ; Info     ; Stuck at GND              ;
+; crypt        ; Input ; Info     ; Stuck at VCC              ;
++--------------+-------+----------+---------------------------+
+
+
++-------------------------------------------------------------+
+; Port Connectivity Checks: "encrypt:E0|mix4:\full_run:13:M2" ;
++--------------+-------+----------+---------------------------+
+; Port         ; Type  ; Severity ; Details                   ;
++--------------+-------+----------+---------------------------+
+; round[5..4]  ; Input ; Info     ; Stuck at VCC              ;
+; round[2..1]  ; Input ; Info     ; Stuck at VCC              ;
+; round[31..6] ; Input ; Info     ; Stuck at GND              ;
+; round[3]     ; Input ; Info     ; Stuck at GND              ;
+; round[0]     ; Input ; Info     ; Stuck at GND              ;
+; crypt        ; Input ; Info     ; Stuck at VCC              ;
++--------------+-------+----------+---------------------------+
+
+
++-------------------------------------------------------------+
+; Port Connectivity Checks: "encrypt:E0|mix4:\full_run:13:M1" ;
++--------------+-------+----------+---------------------------+
+; Port         ; Type  ; Severity ; Details                   ;
++--------------+-------+----------+---------------------------+
+; round[5..4]  ; Input ; Info     ; Stuck at VCC              ;
+; round[31..6] ; Input ; Info     ; Stuck at GND              ;
+; round[3]     ; Input ; Info     ; Stuck at GND              ;
+; round[2]     ; Input ; Info     ; Stuck at VCC              ;
+; round[1]     ; Input ; Info     ; Stuck at GND              ;
+; round[0]     ; Input ; Info     ; Stuck at VCC              ;
+; crypt        ; Input ; Info     ; Stuck at VCC              ;
++--------------+-------+----------+---------------------------+
+
+
++-------------------------------------------------------------+
+; Port Connectivity Checks: "encrypt:E0|mix4:\full_run:13:M0" ;
++--------------+-------+----------+---------------------------+
+; Port         ; Type  ; Severity ; Details                   ;
++--------------+-------+----------+---------------------------+
+; round[5..4]  ; Input ; Info     ; Stuck at VCC              ;
+; round[31..6] ; Input ; Info     ; Stuck at GND              ;
+; round[1..0]  ; Input ; Info     ; Stuck at GND              ;
+; round[3]     ; Input ; Info     ; Stuck at GND              ;
+; round[2]     ; Input ; Info     ; Stuck at VCC              ;
+; crypt        ; Input ; Info     ; Stuck at VCC              ;
++--------------+-------+----------+---------------------------+
+
+
++-------------------------------------------------------------+
+; Port Connectivity Checks: "encrypt:E0|mix4:\full_run:12:M3" ;
++--------------+-------+----------+---------------------------+
+; Port         ; Type  ; Severity ; Details                   ;
++--------------+-------+----------+---------------------------+
+; round[5..4]  ; Input ; Info     ; Stuck at VCC              ;
+; round[1..0]  ; Input ; Info     ; Stuck at VCC              ;
+; round[31..6] ; Input ; Info     ; Stuck at GND              ;
+; round[3..2]  ; Input ; Info     ; Stuck at GND              ;
+; crypt        ; Input ; Info     ; Stuck at VCC              ;
++--------------+-------+----------+---------------------------+
+
+
++-------------------------------------------------------------+
+; Port Connectivity Checks: "encrypt:E0|mix4:\full_run:12:M2" ;
++--------------+-------+----------+---------------------------+
+; Port         ; Type  ; Severity ; Details                   ;
++--------------+-------+----------+---------------------------+
+; round[5..4]  ; Input ; Info     ; Stuck at VCC              ;
+; round[31..6] ; Input ; Info     ; Stuck at GND              ;
+; round[3..2]  ; Input ; Info     ; Stuck at GND              ;
+; round[1]     ; Input ; Info     ; Stuck at VCC              ;
+; round[0]     ; Input ; Info     ; Stuck at GND              ;
+; crypt        ; Input ; Info     ; Stuck at VCC              ;
++--------------+-------+----------+---------------------------+
+
+
++-------------------------------------------------------------+
+; Port Connectivity Checks: "encrypt:E0|mix4:\full_run:12:M1" ;
++--------------+-------+----------+---------------------------+
+; Port         ; Type  ; Severity ; Details                   ;
++--------------+-------+----------+---------------------------+
+; round[5..4]  ; Input ; Info     ; Stuck at VCC              ;
+; round[31..6] ; Input ; Info     ; Stuck at GND              ;
+; round[3..1]  ; Input ; Info     ; Stuck at GND              ;
+; round[0]     ; Input ; Info     ; Stuck at VCC              ;
+; crypt        ; Input ; Info     ; Stuck at VCC              ;
++--------------+-------+----------+---------------------------+
+
+
++-------------------------------------------------------------+
+; Port Connectivity Checks: "encrypt:E0|mix4:\full_run:12:M0" ;
++--------------+-------+----------+---------------------------+
+; Port         ; Type  ; Severity ; Details                   ;
++--------------+-------+----------+---------------------------+
+; round[5..4]  ; Input ; Info     ; Stuck at VCC              ;
+; round[31..6] ; Input ; Info     ; Stuck at GND              ;
+; round[3..0]  ; Input ; Info     ; Stuck at GND              ;
+; crypt        ; Input ; Info     ; Stuck at VCC              ;
++--------------+-------+----------+---------------------------+
+
+
++-------------------------------------------------------------+
+; Port Connectivity Checks: "encrypt:E0|mix4:\full_run:11:M3" ;
++--------------+-------+----------+---------------------------+
+; Port         ; Type  ; Severity ; Details                   ;
++--------------+-------+----------+---------------------------+
+; round[3..0]  ; Input ; Info     ; Stuck at VCC              ;
+; round[31..6] ; Input ; Info     ; Stuck at GND              ;
+; round[5]     ; Input ; Info     ; Stuck at VCC              ;
+; round[4]     ; Input ; Info     ; Stuck at GND              ;
+; crypt        ; Input ; Info     ; Stuck at VCC              ;
++--------------+-------+----------+---------------------------+
+
+
++-------------------------------------------------------------+
+; Port Connectivity Checks: "encrypt:E0|mix4:\full_run:11:M2" ;
++--------------+-------+----------+---------------------------+
+; Port         ; Type  ; Severity ; Details                   ;
++--------------+-------+----------+---------------------------+
+; round[3..1]  ; Input ; Info     ; Stuck at VCC              ;
+; round[31..6] ; Input ; Info     ; Stuck at GND              ;
+; round[5]     ; Input ; Info     ; Stuck at VCC              ;
+; round[4]     ; Input ; Info     ; Stuck at GND              ;
+; round[0]     ; Input ; Info     ; Stuck at GND              ;
+; crypt        ; Input ; Info     ; Stuck at VCC              ;
++--------------+-------+----------+---------------------------+
+
+
++-------------------------------------------------------------+
+; Port Connectivity Checks: "encrypt:E0|mix4:\full_run:11:M1" ;
++--------------+-------+----------+---------------------------+
+; Port         ; Type  ; Severity ; Details                   ;
++--------------+-------+----------+---------------------------+
+; round[3..2]  ; Input ; Info     ; Stuck at VCC              ;
+; round[31..6] ; Input ; Info     ; Stuck at GND              ;
+; round[5]     ; Input ; Info     ; Stuck at VCC              ;
+; round[4]     ; Input ; Info     ; Stuck at GND              ;
+; round[1]     ; Input ; Info     ; Stuck at GND              ;
+; round[0]     ; Input ; Info     ; Stuck at VCC              ;
+; crypt        ; Input ; Info     ; Stuck at VCC              ;
++--------------+-------+----------+---------------------------+
+
+
++-------------------------------------------------------------+
+; Port Connectivity Checks: "encrypt:E0|mix4:\full_run:11:M0" ;
++--------------+-------+----------+---------------------------+
+; Port         ; Type  ; Severity ; Details                   ;
++--------------+-------+----------+---------------------------+
+; round[3..2]  ; Input ; Info     ; Stuck at VCC              ;
+; round[31..6] ; Input ; Info     ; Stuck at GND              ;
+; round[1..0]  ; Input ; Info     ; Stuck at GND              ;
+; round[5]     ; Input ; Info     ; Stuck at VCC              ;
+; round[4]     ; Input ; Info     ; Stuck at GND              ;
+; crypt        ; Input ; Info     ; Stuck at VCC              ;
++--------------+-------+----------+---------------------------+
+
+
++-------------------------------------------------------------+
+; Port Connectivity Checks: "encrypt:E0|mix4:\full_run:10:M3" ;
++--------------+-------+----------+---------------------------+
+; Port         ; Type  ; Severity ; Details                   ;
++--------------+-------+----------+---------------------------+
+; round[1..0]  ; Input ; Info     ; Stuck at VCC              ;
+; round[31..6] ; Input ; Info     ; Stuck at GND              ;
+; round[5]     ; Input ; Info     ; Stuck at VCC              ;
+; round[4]     ; Input ; Info     ; Stuck at GND              ;
+; round[3]     ; Input ; Info     ; Stuck at VCC              ;
+; round[2]     ; Input ; Info     ; Stuck at GND              ;
+; crypt        ; Input ; Info     ; Stuck at VCC              ;
++--------------+-------+----------+---------------------------+
+
+
++-------------------------------------------------------------+
+; Port Connectivity Checks: "encrypt:E0|mix4:\full_run:10:M2" ;
++--------------+-------+----------+---------------------------+
+; Port         ; Type  ; Severity ; Details                   ;
++--------------+-------+----------+---------------------------+
+; round[31..6] ; Input ; Info     ; Stuck at GND              ;
+; round[5]     ; Input ; Info     ; Stuck at VCC              ;
+; round[4]     ; Input ; Info     ; Stuck at GND              ;
+; round[3]     ; Input ; Info     ; Stuck at VCC              ;
+; round[2]     ; Input ; Info     ; Stuck at GND              ;
+; round[1]     ; Input ; Info     ; Stuck at VCC              ;
+; round[0]     ; Input ; Info     ; Stuck at GND              ;
+; crypt        ; Input ; Info     ; Stuck at VCC              ;
++--------------+-------+----------+---------------------------+
+
+
++-------------------------------------------------------------+
+; Port Connectivity Checks: "encrypt:E0|mix4:\full_run:10:M1" ;
++--------------+-------+----------+---------------------------+
+; Port         ; Type  ; Severity ; Details                   ;
++--------------+-------+----------+---------------------------+
+; round[31..6] ; Input ; Info     ; Stuck at GND              ;
+; round[2..1]  ; Input ; Info     ; Stuck at GND              ;
+; round[5]     ; Input ; Info     ; Stuck at VCC              ;
+; round[4]     ; Input ; Info     ; Stuck at GND              ;
+; round[3]     ; Input ; Info     ; Stuck at VCC              ;
+; round[0]     ; Input ; Info     ; Stuck at VCC              ;
+; crypt        ; Input ; Info     ; Stuck at VCC              ;
++--------------+-------+----------+---------------------------+
+
+
++-------------------------------------------------------------+
+; Port Connectivity Checks: "encrypt:E0|mix4:\full_run:10:M0" ;
++--------------+-------+----------+---------------------------+
+; Port         ; Type  ; Severity ; Details                   ;
++--------------+-------+----------+---------------------------+
+; round[31..6] ; Input ; Info     ; Stuck at GND              ;
+; round[2..0]  ; Input ; Info     ; Stuck at GND              ;
+; round[5]     ; Input ; Info     ; Stuck at VCC              ;
+; round[4]     ; Input ; Info     ; Stuck at GND              ;
+; round[3]     ; Input ; Info     ; Stuck at VCC              ;
+; crypt        ; Input ; Info     ; Stuck at VCC              ;
++--------------+-------+----------+---------------------------+
+
+
++------------------------------------------------------------+
+; Port Connectivity Checks: "encrypt:E0|mix4:\full_run:9:M3" ;
++--------------+-------+----------+--------------------------+
+; Port         ; Type  ; Severity ; Details                  ;
++--------------+-------+----------+--------------------------+
+; round[2..0]  ; Input ; Info     ; Stuck at VCC             ;
+; round[31..6] ; Input ; Info     ; Stuck at GND             ;
+; round[4..3]  ; Input ; Info     ; Stuck at GND             ;
+; round[5]     ; Input ; Info     ; Stuck at VCC             ;
+; crypt        ; Input ; Info     ; Stuck at VCC             ;
++--------------+-------+----------+--------------------------+
+
+
++------------------------------------------------------------+
+; Port Connectivity Checks: "encrypt:E0|mix4:\full_run:9:M2" ;
++--------------+-------+----------+--------------------------+
+; Port         ; Type  ; Severity ; Details                  ;
++--------------+-------+----------+--------------------------+
+; round[2..1]  ; Input ; Info     ; Stuck at VCC             ;
+; round[31..6] ; Input ; Info     ; Stuck at GND             ;
+; round[4..3]  ; Input ; Info     ; Stuck at GND             ;
+; round[5]     ; Input ; Info     ; Stuck at VCC             ;
+; round[0]     ; Input ; Info     ; Stuck at GND             ;
+; crypt        ; Input ; Info     ; Stuck at VCC             ;
++--------------+-------+----------+--------------------------+
+
+
++------------------------------------------------------------+
+; Port Connectivity Checks: "encrypt:E0|mix4:\full_run:9:M1" ;
++--------------+-------+----------+--------------------------+
+; Port         ; Type  ; Severity ; Details                  ;
++--------------+-------+----------+--------------------------+
+; round[31..6] ; Input ; Info     ; Stuck at GND             ;
+; round[4..3]  ; Input ; Info     ; Stuck at GND             ;
+; round[5]     ; Input ; Info     ; Stuck at VCC             ;
+; round[2]     ; Input ; Info     ; Stuck at VCC             ;
+; round[1]     ; Input ; Info     ; Stuck at GND             ;
+; round[0]     ; Input ; Info     ; Stuck at VCC             ;
+; crypt        ; Input ; Info     ; Stuck at VCC             ;
++--------------+-------+----------+--------------------------+
+
+
++------------------------------------------------------------+
+; Port Connectivity Checks: "encrypt:E0|mix4:\full_run:9:M0" ;
++--------------+-------+----------+--------------------------+
+; Port         ; Type  ; Severity ; Details                  ;
++--------------+-------+----------+--------------------------+
+; round[31..6] ; Input ; Info     ; Stuck at GND             ;
+; round[4..3]  ; Input ; Info     ; Stuck at GND             ;
+; round[1..0]  ; Input ; Info     ; Stuck at GND             ;
+; round[5]     ; Input ; Info     ; Stuck at VCC             ;
+; round[2]     ; Input ; Info     ; Stuck at VCC             ;
+; crypt        ; Input ; Info     ; Stuck at VCC             ;
++--------------+-------+----------+--------------------------+
+
+
++------------------------------------------------------------+
+; Port Connectivity Checks: "encrypt:E0|mix4:\full_run:8:M3" ;
++--------------+-------+----------+--------------------------+
+; Port         ; Type  ; Severity ; Details                  ;
++--------------+-------+----------+--------------------------+
+; round[1..0]  ; Input ; Info     ; Stuck at VCC             ;
+; round[31..6] ; Input ; Info     ; Stuck at GND             ;
+; round[4..2]  ; Input ; Info     ; Stuck at GND             ;
+; round[5]     ; Input ; Info     ; Stuck at VCC             ;
+; crypt        ; Input ; Info     ; Stuck at VCC             ;
++--------------+-------+----------+--------------------------+
+
+
++------------------------------------------------------------+
+; Port Connectivity Checks: "encrypt:E0|mix4:\full_run:8:M2" ;
++--------------+-------+----------+--------------------------+
+; Port         ; Type  ; Severity ; Details                  ;
++--------------+-------+----------+--------------------------+
+; round[31..6] ; Input ; Info     ; Stuck at GND             ;
+; round[4..2]  ; Input ; Info     ; Stuck at GND             ;
+; round[5]     ; Input ; Info     ; Stuck at VCC             ;
+; round[1]     ; Input ; Info     ; Stuck at VCC             ;
+; round[0]     ; Input ; Info     ; Stuck at GND             ;
+; crypt        ; Input ; Info     ; Stuck at VCC             ;
++--------------+-------+----------+--------------------------+
+
+
++------------------------------------------------------------+
+; Port Connectivity Checks: "encrypt:E0|mix4:\full_run:8:M1" ;
++--------------+-------+----------+--------------------------+
+; Port         ; Type  ; Severity ; Details                  ;
++--------------+-------+----------+--------------------------+
+; round[31..6] ; Input ; Info     ; Stuck at GND             ;
+; round[4..1]  ; Input ; Info     ; Stuck at GND             ;
+; round[5]     ; Input ; Info     ; Stuck at VCC             ;
+; round[0]     ; Input ; Info     ; Stuck at VCC             ;
+; crypt        ; Input ; Info     ; Stuck at VCC             ;
++--------------+-------+----------+--------------------------+
+
+
++------------------------------------------------------------+
+; Port Connectivity Checks: "encrypt:E0|mix4:\full_run:8:M0" ;
++--------------+-------+----------+--------------------------+
+; Port         ; Type  ; Severity ; Details                  ;
++--------------+-------+----------+--------------------------+
+; round[31..6] ; Input ; Info     ; Stuck at GND             ;
+; round[4..0]  ; Input ; Info     ; Stuck at GND             ;
+; round[5]     ; Input ; Info     ; Stuck at VCC             ;
+; crypt        ; Input ; Info     ; Stuck at VCC             ;
++--------------+-------+----------+--------------------------+
+
+
++------------------------------------------------------------+
+; Port Connectivity Checks: "encrypt:E0|mix4:\full_run:7:M3" ;
++--------------+-------+----------+--------------------------+
+; Port         ; Type  ; Severity ; Details                  ;
++--------------+-------+----------+--------------------------+
+; round[4..0]  ; Input ; Info     ; Stuck at VCC             ;
+; round[31..5] ; Input ; Info     ; Stuck at GND             ;
+; crypt        ; Input ; Info     ; Stuck at VCC             ;
++--------------+-------+----------+--------------------------+
+
+
++------------------------------------------------------------+
+; Port Connectivity Checks: "encrypt:E0|mix4:\full_run:7:M2" ;
++--------------+-------+----------+--------------------------+
+; Port         ; Type  ; Severity ; Details                  ;
++--------------+-------+----------+--------------------------+
+; round[4..1]  ; Input ; Info     ; Stuck at VCC             ;
+; round[31..5] ; Input ; Info     ; Stuck at GND             ;
+; round[0]     ; Input ; Info     ; Stuck at GND             ;
+; crypt        ; Input ; Info     ; Stuck at VCC             ;
++--------------+-------+----------+--------------------------+
+
+
++------------------------------------------------------------+
+; Port Connectivity Checks: "encrypt:E0|mix4:\full_run:7:M1" ;
++--------------+-------+----------+--------------------------+
+; Port         ; Type  ; Severity ; Details                  ;
++--------------+-------+----------+--------------------------+
+; round[4..2]  ; Input ; Info     ; Stuck at VCC             ;
+; round[31..5] ; Input ; Info     ; Stuck at GND             ;
+; round[1]     ; Input ; Info     ; Stuck at GND             ;
+; round[0]     ; Input ; Info     ; Stuck at VCC             ;
+; crypt        ; Input ; Info     ; Stuck at VCC             ;
++--------------+-------+----------+--------------------------+
+
+
++------------------------------------------------------------+
+; Port Connectivity Checks: "encrypt:E0|mix4:\full_run:7:M0" ;
++--------------+-------+----------+--------------------------+
+; Port         ; Type  ; Severity ; Details                  ;
++--------------+-------+----------+--------------------------+
+; round[4..2]  ; Input ; Info     ; Stuck at VCC             ;
+; round[31..5] ; Input ; Info     ; Stuck at GND             ;
+; round[1..0]  ; Input ; Info     ; Stuck at GND             ;
+; crypt        ; Input ; Info     ; Stuck at VCC             ;
++--------------+-------+----------+--------------------------+
+
+
++------------------------------------------------------------+
+; Port Connectivity Checks: "encrypt:E0|mix4:\full_run:6:M3" ;
++--------------+-------+----------+--------------------------+
+; Port         ; Type  ; Severity ; Details                  ;
++--------------+-------+----------+--------------------------+
+; round[4..3]  ; Input ; Info     ; Stuck at VCC             ;
+; round[1..0]  ; Input ; Info     ; Stuck at VCC             ;
+; round[31..5] ; Input ; Info     ; Stuck at GND             ;
+; round[2]     ; Input ; Info     ; Stuck at GND             ;
+; crypt        ; Input ; Info     ; Stuck at VCC             ;
++--------------+-------+----------+--------------------------+
+
+
++------------------------------------------------------------+
+; Port Connectivity Checks: "encrypt:E0|mix4:\full_run:6:M2" ;
++--------------+-------+----------+--------------------------+
+; Port         ; Type  ; Severity ; Details                  ;
++--------------+-------+----------+--------------------------+
+; round[4..3]  ; Input ; Info     ; Stuck at VCC             ;
+; round[31..5] ; Input ; Info     ; Stuck at GND             ;
+; round[2]     ; Input ; Info     ; Stuck at GND             ;
+; round[1]     ; Input ; Info     ; Stuck at VCC             ;
+; round[0]     ; Input ; Info     ; Stuck at GND             ;
+; crypt        ; Input ; Info     ; Stuck at VCC             ;
++--------------+-------+----------+--------------------------+
+
+
++------------------------------------------------------------+
+; Port Connectivity Checks: "encrypt:E0|mix4:\full_run:6:M1" ;
++--------------+-------+----------+--------------------------+
+; Port         ; Type  ; Severity ; Details                  ;
++--------------+-------+----------+--------------------------+
+; round[4..3]  ; Input ; Info     ; Stuck at VCC             ;
+; round[31..5] ; Input ; Info     ; Stuck at GND             ;
+; round[2..1]  ; Input ; Info     ; Stuck at GND             ;
+; round[0]     ; Input ; Info     ; Stuck at VCC             ;
+; crypt        ; Input ; Info     ; Stuck at VCC             ;
++--------------+-------+----------+--------------------------+
+
+
++------------------------------------------------------------+
+; Port Connectivity Checks: "encrypt:E0|mix4:\full_run:6:M0" ;
++--------------+-------+----------+--------------------------+
+; Port         ; Type  ; Severity ; Details                  ;
++--------------+-------+----------+--------------------------+
+; round[4..3]  ; Input ; Info     ; Stuck at VCC             ;
+; round[31..5] ; Input ; Info     ; Stuck at GND             ;
+; round[2..0]  ; Input ; Info     ; Stuck at GND             ;
+; crypt        ; Input ; Info     ; Stuck at VCC             ;
++--------------+-------+----------+--------------------------+
+
+
++------------------------------------------------------------+
+; Port Connectivity Checks: "encrypt:E0|mix4:\full_run:5:M3" ;
++--------------+-------+----------+--------------------------+
+; Port         ; Type  ; Severity ; Details                  ;
++--------------+-------+----------+--------------------------+
+; round[2..0]  ; Input ; Info     ; Stuck at VCC             ;
+; round[31..5] ; Input ; Info     ; Stuck at GND             ;
+; round[4]     ; Input ; Info     ; Stuck at VCC             ;
+; round[3]     ; Input ; Info     ; Stuck at GND             ;
+; crypt        ; Input ; Info     ; Stuck at VCC             ;
++--------------+-------+----------+--------------------------+
+
+
++------------------------------------------------------------+
+; Port Connectivity Checks: "encrypt:E0|mix4:\full_run:5:M2" ;
++--------------+-------+----------+--------------------------+
+; Port         ; Type  ; Severity ; Details                  ;
++--------------+-------+----------+--------------------------+
+; round[2..1]  ; Input ; Info     ; Stuck at VCC             ;
+; round[31..5] ; Input ; Info     ; Stuck at GND             ;
+; round[4]     ; Input ; Info     ; Stuck at VCC             ;
+; round[3]     ; Input ; Info     ; Stuck at GND             ;
+; round[0]     ; Input ; Info     ; Stuck at GND             ;
+; crypt        ; Input ; Info     ; Stuck at VCC             ;
++--------------+-------+----------+--------------------------+
+
+
++------------------------------------------------------------+
+; Port Connectivity Checks: "encrypt:E0|mix4:\full_run:5:M1" ;
++--------------+-------+----------+--------------------------+
+; Port         ; Type  ; Severity ; Details                  ;
++--------------+-------+----------+--------------------------+
+; round[31..5] ; Input ; Info     ; Stuck at GND             ;
+; round[4]     ; Input ; Info     ; Stuck at VCC             ;
+; round[3]     ; Input ; Info     ; Stuck at GND             ;
+; round[2]     ; Input ; Info     ; Stuck at VCC             ;
+; round[1]     ; Input ; Info     ; Stuck at GND             ;
+; round[0]     ; Input ; Info     ; Stuck at VCC             ;
+; crypt        ; Input ; Info     ; Stuck at VCC             ;
++--------------+-------+----------+--------------------------+
+
+
++------------------------------------------------------------+
+; Port Connectivity Checks: "encrypt:E0|mix4:\full_run:5:M0" ;
++--------------+-------+----------+--------------------------+
+; Port         ; Type  ; Severity ; Details                  ;
++--------------+-------+----------+--------------------------+
+; round[31..5] ; Input ; Info     ; Stuck at GND             ;
+; round[1..0]  ; Input ; Info     ; Stuck at GND             ;
+; round[4]     ; Input ; Info     ; Stuck at VCC             ;
+; round[3]     ; Input ; Info     ; Stuck at GND             ;
+; round[2]     ; Input ; Info     ; Stuck at VCC             ;
+; crypt        ; Input ; Info     ; Stuck at VCC             ;
++--------------+-------+----------+--------------------------+
+
+
++------------------------------------------------------------+
+; Port Connectivity Checks: "encrypt:E0|mix4:\full_run:4:M3" ;
++--------------+-------+----------+--------------------------+
+; Port         ; Type  ; Severity ; Details                  ;
++--------------+-------+----------+--------------------------+
+; round[1..0]  ; Input ; Info     ; Stuck at VCC             ;
+; round[31..5] ; Input ; Info     ; Stuck at GND             ;
+; round[3..2]  ; Input ; Info     ; Stuck at GND             ;
+; round[4]     ; Input ; Info     ; Stuck at VCC             ;
+; crypt        ; Input ; Info     ; Stuck at VCC             ;
++--------------+-------+----------+--------------------------+
+
+
++------------------------------------------------------------+
+; Port Connectivity Checks: "encrypt:E0|mix4:\full_run:4:M2" ;
++--------------+-------+----------+--------------------------+
+; Port         ; Type  ; Severity ; Details                  ;
++--------------+-------+----------+--------------------------+
+; round[31..5] ; Input ; Info     ; Stuck at GND             ;
+; round[3..2]  ; Input ; Info     ; Stuck at GND             ;
+; round[4]     ; Input ; Info     ; Stuck at VCC             ;
+; round[1]     ; Input ; Info     ; Stuck at VCC             ;
+; round[0]     ; Input ; Info     ; Stuck at GND             ;
+; crypt        ; Input ; Info     ; Stuck at VCC             ;
++--------------+-------+----------+--------------------------+
+
+
++------------------------------------------------------------+
+; Port Connectivity Checks: "encrypt:E0|mix4:\full_run:4:M1" ;
++--------------+-------+----------+--------------------------+
+; Port         ; Type  ; Severity ; Details                  ;
++--------------+-------+----------+--------------------------+
+; round[31..5] ; Input ; Info     ; Stuck at GND             ;
+; round[3..1]  ; Input ; Info     ; Stuck at GND             ;
+; round[4]     ; Input ; Info     ; Stuck at VCC             ;
+; round[0]     ; Input ; Info     ; Stuck at VCC             ;
+; crypt        ; Input ; Info     ; Stuck at VCC             ;
++--------------+-------+----------+--------------------------+
+
+
++------------------------------------------------------------+
+; Port Connectivity Checks: "encrypt:E0|mix4:\full_run:4:M0" ;
++--------------+-------+----------+--------------------------+
+; Port         ; Type  ; Severity ; Details                  ;
++--------------+-------+----------+--------------------------+
+; round[31..5] ; Input ; Info     ; Stuck at GND             ;
+; round[3..0]  ; Input ; Info     ; Stuck at GND             ;
+; round[4]     ; Input ; Info     ; Stuck at VCC             ;
+; crypt        ; Input ; Info     ; Stuck at VCC             ;
++--------------+-------+----------+--------------------------+
+
+
++------------------------------------------------------------+
+; Port Connectivity Checks: "encrypt:E0|mix4:\full_run:3:M3" ;
++--------------+-------+----------+--------------------------+
+; Port         ; Type  ; Severity ; Details                  ;
++--------------+-------+----------+--------------------------+
+; round[3..0]  ; Input ; Info     ; Stuck at VCC             ;
+; round[31..4] ; Input ; Info     ; Stuck at GND             ;
+; crypt        ; Input ; Info     ; Stuck at VCC             ;
++--------------+-------+----------+--------------------------+
+
+
++------------------------------------------------------------+
+; Port Connectivity Checks: "encrypt:E0|mix4:\full_run:3:M2" ;
++--------------+-------+----------+--------------------------+
+; Port         ; Type  ; Severity ; Details                  ;
++--------------+-------+----------+--------------------------+
+; round[3..1]  ; Input ; Info     ; Stuck at VCC             ;
+; round[31..4] ; Input ; Info     ; Stuck at GND             ;
+; round[0]     ; Input ; Info     ; Stuck at GND             ;
+; crypt        ; Input ; Info     ; Stuck at VCC             ;
++--------------+-------+----------+--------------------------+
+
+
++------------------------------------------------------------+
+; Port Connectivity Checks: "encrypt:E0|mix4:\full_run:3:M1" ;
++--------------+-------+----------+--------------------------+
+; Port         ; Type  ; Severity ; Details                  ;
++--------------+-------+----------+--------------------------+
+; round[3..2]  ; Input ; Info     ; Stuck at VCC             ;
+; round[31..4] ; Input ; Info     ; Stuck at GND             ;
+; round[1]     ; Input ; Info     ; Stuck at GND             ;
+; round[0]     ; Input ; Info     ; Stuck at VCC             ;
+; crypt        ; Input ; Info     ; Stuck at VCC             ;
++--------------+-------+----------+--------------------------+
+
+
++------------------------------------------------------------+
+; Port Connectivity Checks: "encrypt:E0|mix4:\full_run:3:M0" ;
++--------------+-------+----------+--------------------------+
+; Port         ; Type  ; Severity ; Details                  ;
++--------------+-------+----------+--------------------------+
+; round[3..2]  ; Input ; Info     ; Stuck at VCC             ;
+; round[31..4] ; Input ; Info     ; Stuck at GND             ;
+; round[1..0]  ; Input ; Info     ; Stuck at GND             ;
+; crypt        ; Input ; Info     ; Stuck at VCC             ;
++--------------+-------+----------+--------------------------+
+
+
++------------------------------------------------------------+
+; Port Connectivity Checks: "encrypt:E0|mix4:\full_run:2:M3" ;
++--------------+-------+----------+--------------------------+
+; Port         ; Type  ; Severity ; Details                  ;
++--------------+-------+----------+--------------------------+
+; round[1..0]  ; Input ; Info     ; Stuck at VCC             ;
+; round[31..4] ; Input ; Info     ; Stuck at GND             ;
+; round[3]     ; Input ; Info     ; Stuck at VCC             ;
+; round[2]     ; Input ; Info     ; Stuck at GND             ;
+; crypt        ; Input ; Info     ; Stuck at VCC             ;
++--------------+-------+----------+--------------------------+
+
+
++------------------------------------------------------------+
+; Port Connectivity Checks: "encrypt:E0|mix4:\full_run:2:M2" ;
++--------------+-------+----------+--------------------------+
+; Port         ; Type  ; Severity ; Details                  ;
++--------------+-------+----------+--------------------------+
+; round[31..4] ; Input ; Info     ; Stuck at GND             ;
+; round[3]     ; Input ; Info     ; Stuck at VCC             ;
+; round[2]     ; Input ; Info     ; Stuck at GND             ;
+; round[1]     ; Input ; Info     ; Stuck at VCC             ;
+; round[0]     ; Input ; Info     ; Stuck at GND             ;
+; crypt        ; Input ; Info     ; Stuck at VCC             ;
++--------------+-------+----------+--------------------------+
+
+
++------------------------------------------------------------+
+; Port Connectivity Checks: "encrypt:E0|mix4:\full_run:2:M1" ;
++--------------+-------+----------+--------------------------+
+; Port         ; Type  ; Severity ; Details                  ;
++--------------+-------+----------+--------------------------+
+; round[31..4] ; Input ; Info     ; Stuck at GND             ;
+; round[2..1]  ; Input ; Info     ; Stuck at GND             ;
+; round[3]     ; Input ; Info     ; Stuck at VCC             ;
+; round[0]     ; Input ; Info     ; Stuck at VCC             ;
+; crypt        ; Input ; Info     ; Stuck at VCC             ;
++--------------+-------+----------+--------------------------+
+
+
++------------------------------------------------------------+
+; Port Connectivity Checks: "encrypt:E0|mix4:\full_run:2:M0" ;
++--------------+-------+----------+--------------------------+
+; Port         ; Type  ; Severity ; Details                  ;
++--------------+-------+----------+--------------------------+
+; round[31..4] ; Input ; Info     ; Stuck at GND             ;
+; round[2..0]  ; Input ; Info     ; Stuck at GND             ;
+; round[3]     ; Input ; Info     ; Stuck at VCC             ;
+; crypt        ; Input ; Info     ; Stuck at VCC             ;
++--------------+-------+----------+--------------------------+
+
+
++------------------------------------------------------------+
+; Port Connectivity Checks: "encrypt:E0|mix4:\full_run:1:M3" ;
++--------------+-------+----------+--------------------------+
+; Port         ; Type  ; Severity ; Details                  ;
++--------------+-------+----------+--------------------------+
+; round[2..0]  ; Input ; Info     ; Stuck at VCC             ;
+; round[31..3] ; Input ; Info     ; Stuck at GND             ;
+; crypt        ; Input ; Info     ; Stuck at VCC             ;
++--------------+-------+----------+--------------------------+
+
+
++------------------------------------------------------------+
+; Port Connectivity Checks: "encrypt:E0|mix4:\full_run:1:M2" ;
++--------------+-------+----------+--------------------------+
+; Port         ; Type  ; Severity ; Details                  ;
++--------------+-------+----------+--------------------------+
+; round[2..1]  ; Input ; Info     ; Stuck at VCC             ;
+; round[31..3] ; Input ; Info     ; Stuck at GND             ;
+; round[0]     ; Input ; Info     ; Stuck at GND             ;
+; crypt        ; Input ; Info     ; Stuck at VCC             ;
++--------------+-------+----------+--------------------------+
+
+
++------------------------------------------------------------+
+; Port Connectivity Checks: "encrypt:E0|mix4:\full_run:1:M1" ;
++--------------+-------+----------+--------------------------+
+; Port         ; Type  ; Severity ; Details                  ;
++--------------+-------+----------+--------------------------+
+; round[31..3] ; Input ; Info     ; Stuck at GND             ;
+; round[2]     ; Input ; Info     ; Stuck at VCC             ;
+; round[1]     ; Input ; Info     ; Stuck at GND             ;
+; round[0]     ; Input ; Info     ; Stuck at VCC             ;
+; crypt        ; Input ; Info     ; Stuck at VCC             ;
++--------------+-------+----------+--------------------------+
+
+
++------------------------------------------------------------+
+; Port Connectivity Checks: "encrypt:E0|mix4:\full_run:1:M0" ;
++--------------+-------+----------+--------------------------+
+; Port         ; Type  ; Severity ; Details                  ;
++--------------+-------+----------+--------------------------+
+; round[31..3] ; Input ; Info     ; Stuck at GND             ;
+; round[1..0]  ; Input ; Info     ; Stuck at GND             ;
+; round[2]     ; Input ; Info     ; Stuck at VCC             ;
+; crypt        ; Input ; Info     ; Stuck at VCC             ;
++--------------+-------+----------+--------------------------+
+
+
++------------------------------------------------------------+
+; Port Connectivity Checks: "encrypt:E0|mix4:\full_run:0:M3" ;
++--------------+-------+----------+--------------------------+
+; Port         ; Type  ; Severity ; Details                  ;
++--------------+-------+----------+--------------------------+
+; round[1..0]  ; Input ; Info     ; Stuck at VCC             ;
+; round[31..2] ; Input ; Info     ; Stuck at GND             ;
+; crypt        ; Input ; Info     ; Stuck at VCC             ;
++--------------+-------+----------+--------------------------+
+
+
++------------------------------------------------------------+
+; Port Connectivity Checks: "encrypt:E0|mix4:\full_run:0:M2" ;
++--------------+-------+----------+--------------------------+
+; Port         ; Type  ; Severity ; Details                  ;
++--------------+-------+----------+--------------------------+
+; round[31..2] ; Input ; Info     ; Stuck at GND             ;
+; round[1]     ; Input ; Info     ; Stuck at VCC             ;
+; round[0]     ; Input ; Info     ; Stuck at GND             ;
+; crypt        ; Input ; Info     ; Stuck at VCC             ;
++--------------+-------+----------+--------------------------+
+
+
++------------------------------------------------------------+
+; Port Connectivity Checks: "encrypt:E0|mix4:\full_run:0:M1" ;
++--------------+-------+----------+--------------------------+
+; Port         ; Type  ; Severity ; Details                  ;
++--------------+-------+----------+--------------------------+
+; round[31..1] ; Input ; Info     ; Stuck at GND             ;
+; round[0]     ; Input ; Info     ; Stuck at VCC             ;
+; crypt        ; Input ; Info     ; Stuck at VCC             ;
++--------------+-------+----------+--------------------------+
+
+
++---------------------------------------------------------------------+
+; Port Connectivity Checks: "encrypt:E0|mix4:\full_run:0:M0|mixer:M3" ;
++------+-------+----------+-------------------------------------------+
+; Port ; Type  ; Severity ; Details                                   ;
++------+-------+----------+-------------------------------------------+
+; pair ; Input ; Info     ; Stuck at VCC                              ;
++------+-------+----------+-------------------------------------------+
+
+
++---------------------------------------------------------------------+
+; Port Connectivity Checks: "encrypt:E0|mix4:\full_run:0:M0|mixer:M2" ;
++---------+-------+----------+----------------------------------------+
+; Port    ; Type  ; Severity ; Details                                ;
++---------+-------+----------+----------------------------------------+
+; pair[1] ; Input ; Info     ; Stuck at VCC                           ;
+; pair[0] ; Input ; Info     ; Stuck at GND                           ;
++---------+-------+----------+----------------------------------------+
+
+
++---------------------------------------------------------------------+
+; Port Connectivity Checks: "encrypt:E0|mix4:\full_run:0:M0|mixer:M1" ;
++---------+-------+----------+----------------------------------------+
+; Port    ; Type  ; Severity ; Details                                ;
++---------+-------+----------+----------------------------------------+
+; pair[1] ; Input ; Info     ; Stuck at GND                           ;
+; pair[0] ; Input ; Info     ; Stuck at VCC                           ;
++---------+-------+----------+----------------------------------------+
+
+
++---------------------------------------------------------------------+
+; Port Connectivity Checks: "encrypt:E0|mix4:\full_run:0:M0|mixer:M0" ;
++------+-------+----------+-------------------------------------------+
+; Port ; Type  ; Severity ; Details                                   ;
++------+-------+----------+-------------------------------------------+
+; pair ; Input ; Info     ; Stuck at GND                              ;
++------+-------+----------+-------------------------------------------+
+
+
++------------------------------------------------------------+
+; Port Connectivity Checks: "encrypt:E0|mix4:\full_run:0:M0" ;
++-------+-------+----------+---------------------------------+
+; Port  ; Type  ; Severity ; Details                         ;
++-------+-------+----------+---------------------------------+
+; round ; Input ; Info     ; Stuck at GND                    ;
+; crypt ; Input ; Info     ; Stuck at VCC                    ;
++-------+-------+----------+---------------------------------+
 
 
 +-------------------------------+
@@ -321,7 +2297,7 @@ Note: All cells listed above may not be present at the end of synthesis due to v
 +----------------+--------------+
 ; Partition Name ; Elapsed Time ;
 +----------------+--------------+
-; Top            ; 00:00:01     ;
+; Top            ; 00:00:02     ;
 +----------------+--------------+
 
 
@@ -331,7 +2307,7 @@ Note: All cells listed above may not be present at the end of synthesis due to v
 Info: *******************************************************************
 Info: Running Quartus II 64-Bit Analysis & Synthesis
     Info: Version 13.0.1 Build 232 06/12/2013 Service Pack 1 SJ Full Version
-    Info: Processing started: Tue Aug 08 14:45:37 2017
+    Info: Processing started: Mon Aug 21 17:28:30 2017
 Info: Command: quartus_map --read_settings_files=on --write_settings_files=off 3fish -c 3fish
 Info (20030): Parallel compilation is enabled and will use 4 of the 4 processors detected
 Info (12021): Found 2 design units, including 1 entities, in source file 3fish/key_scheduler.vhd
@@ -357,49 +2333,28 @@ Info (12021): Found 2 design units, including 1 entities, in source file 3fish/e
 Info (12021): Found 2 design units, including 1 entities, in source file 3fish/decrypt.vhd
     Info (12022): Found design unit 1: decrypt-decrypt_dataflow
     Info (12023): Found entity 1: decrypt
-Info (12127): Elaborating entity "mix4" for the top level hierarchy
-Info (12128): Elaborating entity "mixer" for hierarchy "mixer:M0"
+Info (12127): Elaborating entity "threefish" for the top level hierarchy
+Info (12128): Elaborating entity "key_scheduler" for hierarchy "key_scheduler:scheduler"
+Info (12128): Elaborating entity "encrypt" for hierarchy "encrypt:E0"
+Info (12128): Elaborating entity "mix4" for hierarchy "encrypt:E0|mix4:\full_run:0:M0"
+Info (12128): Elaborating entity "mixer" for hierarchy "encrypt:E0|mix4:\full_run:0:M0|mixer:M0"
+Warning (10492): VHDL Process Statement warning at mix.vhd(87): signal "crypt" is read inside the Process Statement but isn't in the Process Statement's sensitivity list
+Warning (10492): VHDL Process Statement warning at mix.vhd(89): signal "round" is read inside the Process Statement but isn't in the Process Statement's sensitivity list
+Warning (10492): VHDL Process Statement warning at mix.vhd(89): signal "pair" is read inside the Process Statement but isn't in the Process Statement's sensitivity list
+Warning (10492): VHDL Process Statement warning at mix.vhd(93): signal "round" is read inside the Process Statement but isn't in the Process Statement's sensitivity list
+Warning (10492): VHDL Process Statement warning at mix.vhd(93): signal "pair" is read inside the Process Statement but isn't in the Process Statement's sensitivity list
+Info (12128): Elaborating entity "decrypt" for hierarchy "decrypt:D0"
 Info (286030): Timing-Driven Synthesis is running
 Info (16010): Generating hard_block partition "hard_block:auto_generated_inst"
     Info (16011): Adding 0 node(s), including 0 DDIO, 0 PLL, 0 transceiver and 0 LCELL
-Warning (21074): Design contains 29 input pin(s) that do not drive logic
-    Warning (15610): No output dependent on input pin "round[3]"
-    Warning (15610): No output dependent on input pin "round[4]"
-    Warning (15610): No output dependent on input pin "round[5]"
-    Warning (15610): No output dependent on input pin "round[6]"
-    Warning (15610): No output dependent on input pin "round[7]"
-    Warning (15610): No output dependent on input pin "round[8]"
-    Warning (15610): No output dependent on input pin "round[9]"
-    Warning (15610): No output dependent on input pin "round[10]"
-    Warning (15610): No output dependent on input pin "round[11]"
-    Warning (15610): No output dependent on input pin "round[12]"
-    Warning (15610): No output dependent on input pin "round[13]"
-    Warning (15610): No output dependent on input pin "round[14]"
-    Warning (15610): No output dependent on input pin "round[15]"
-    Warning (15610): No output dependent on input pin "round[16]"
-    Warning (15610): No output dependent on input pin "round[17]"
-    Warning (15610): No output dependent on input pin "round[18]"
-    Warning (15610): No output dependent on input pin "round[19]"
-    Warning (15610): No output dependent on input pin "round[20]"
-    Warning (15610): No output dependent on input pin "round[21]"
-    Warning (15610): No output dependent on input pin "round[22]"
-    Warning (15610): No output dependent on input pin "round[23]"
-    Warning (15610): No output dependent on input pin "round[24]"
-    Warning (15610): No output dependent on input pin "round[25]"
-    Warning (15610): No output dependent on input pin "round[26]"
-    Warning (15610): No output dependent on input pin "round[27]"
-    Warning (15610): No output dependent on input pin "round[28]"
-    Warning (15610): No output dependent on input pin "round[29]"
-    Warning (15610): No output dependent on input pin "round[30]"
-    Warning (15610): No output dependent on input pin "round[31]"
-Info (21057): Implemented 518 device resources after synthesis - the final resource count might be different
-    Info (21058): Implemented 97 input pins
+Info (21057): Implemented 960 device resources after synthesis - the final resource count might be different
+    Info (21058): Implemented 145 input pins
     Info (21059): Implemented 64 output pins
-    Info (21061): Implemented 357 logic cells
-Info: Quartus II 64-Bit Analysis & Synthesis was successful. 0 errors, 30 warnings
-    Info: Peak virtual memory: 576 megabytes
-    Info: Processing ended: Tue Aug 08 14:45:41 2017
-    Info: Elapsed time: 00:00:04
-    Info: Total CPU time (on all processors): 00:00:03
+    Info (21061): Implemented 751 logic cells
+Info: Quartus II 64-Bit Analysis & Synthesis was successful. 0 errors, 5 warnings
+    Info: Peak virtual memory: 679 megabytes
+    Info: Processing ended: Mon Aug 21 17:28:38 2017
+    Info: Elapsed time: 00:00:08
+    Info: Total CPU time (on all processors): 00:00:07
 
 

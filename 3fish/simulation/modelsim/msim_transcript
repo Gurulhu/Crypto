@@ -19,12 +19,11 @@
 # -- Loading package VITAL_Primitives
 # -- Loading package cycloneiv_atom_pack
 # -- Loading package cycloneiv_components
-# -- Loading package std_logic_arith
-# -- Compiling entity mix4
-# -- Compiling architecture structure of mix4
+# -- Compiling entity threefish
+# -- Compiling architecture structure of threefish
 # 
-vsim work.mix4
-# vsim work.mix4 
+vsim work.threefish
+# vsim work.threefish 
 # Loading std.standard
 # Loading std.textio(body)
 # Loading ieee.std_logic_1164(body)
@@ -32,297 +31,37 @@ vsim work.mix4
 # Loading ieee.vital_primitives(body)
 # Loading cycloneiv.cycloneiv_atom_pack(body)
 # Loading cycloneiv.cycloneiv_components
-# Loading ieee.std_logic_arith(body)
-# Loading work.mix4(structure)
+# Loading work.threefish(structure)
 # Loading cycloneiv.cycloneiv_lcell_comb(vital_lcell_comb)
 # Loading cycloneiv.cycloneiv_io_ibuf(arch)
+# Loading ieee.std_logic_arith(body)
 # Loading cycloneiv.cycloneiv_io_obuf(arch)
 # ** Warning: Design size of 2 instances exceeds ModelSim ALTERA recommended capacity.
 # This may because you are loading cell libraries which are not recommended with
 # the ModelSim Altera version. Expect performance to be adversely affected.
 add wave -position insertpoint  \
-sim:/mix4/input \
-sim:/mix4/round \
-sim:/mix4/crypt \
-sim:/mix4/output
-force -freeze sim:/mix4/input 0000000000000000000000000000000011111111111111111111111111111111 0
-force -freeze sim:/mix4/round 70 0
-force -freeze sim:/mix4/crypt 1 0
+sim:/threefish/key \
+sim:/threefish/input \
+sim:/threefish/tweak \
+sim:/threefish/crypt \
+sim:/threefish/output
+force -freeze sim:/threefish/input 0000000000000000000000000000000011111111111111111111111111111111 0
+force -freeze sim:/threefish/key 1111000011111111000000000101010100011110111000011010101001011010 0
+force -freeze sim:/threefish/tweak 0101010101010101 0
+force -freeze sim:/threefish/crypt 1 0
 run
 run
 run
 run
 run
-force -freeze sim:/mix4/input 0000000000000000000000000000000000000001111111100000000111111110 0
-force -freeze sim:/mix4/round 71 0
 run
+force -freeze sim:/threefish/input 0110001100101010010101010101010111100001000111101110111010011001 0
 run
 run
 run
 run
-force -freeze sim:/mix4/input 0000000000000000000000000000000000001000111111110000000111111111 0
-force -freeze sim:/mix4/crypt 0 0
 run
-run
-run
-run
-run
-force -freeze sim:/mix4/input 0000000000000000000000000000000011111110000000011111111000000001 0
-force -freeze sim:/mix4/round 70 0
-run
-run
-run
-run
-run
-force -freeze sim:/mix4/input 0000000000000000000000000000000011111111111111111111111111111111 0
-force -freeze sim:/mix4/round 0 0
-force -freeze sim:/mix4/crypt 1 0
-run
-run
-run
-run
-run
-force -freeze sim:/mix4/input 0000000000000000000000000000000000000001111111100000000111111110 0
-force -freeze sim:/mix4/crypt 0 0
-run
-run
-run
-run
-run
-# WARNING: No extended dataflow license exists
-force -freeze sim:/mix4/input 0000000000000000000000000000000011111111111111111111111111111111 0
-force -freeze sim:/mix4/round 4 0
-run
-run
-run
-run
-run
-force -freeze sim:/mix4/round 3 0
-run
-run
-run
-run
-run
-noforce sim:/mix4/output
-force -freeze sim:/mix4/round 2 0
-run
-run
-run
-run
-run
-force -freeze sim:/mix4/round 1 0
-run
-run
-run
-run
-run
-restart -f
-# ** Warning: Design size of 1 instances exceeds ModelSim ALTERA recommended capacity.
-# This may because you are loading cell libraries which are not recommended with
-# the ModelSim Altera version. Expect performance to be adversely affected.
-force -freeze sim:/mix4/input 0000000000000000000000000000000011111111111111111111111111111111 0
-force -freeze sim:/mix4/round 0 0
-force -freeze sim:/mix4/crypt 1 0
-run
-run
-run
-run
-run
-force -freeze sim:/mix4/round 1 0
-run
-run
-run
-run
-run
-noforce sim:/mix4/input
-run
-force -freeze sim:/mix4/input 0000000000000000000000000000000011111111111111111111111111111111 0
-run
-run
-run
-run
-run
-force -freeze sim:/mix4/output 0000000000000000000000000000000000000001111111100000000111111110 0
-noforce sim:/mix4/output
-force -freeze sim:/mix4/input 0000000000000000000000000000000000000001111111100000000111111110 0
-run
-run
-run
-run
-run
-force -freeze sim:/mix4/crypt 0 0
-run
-run
-run
-run
-run
-force -freeze sim:/mix4/round 0 0
-run
-run
-run
-run
-run
-# WARNING: No extended dataflow license exists
-force -freeze sim:/mix4/round 1 0
-run
-run
-run
-run
-run
-force -freeze sim:/mix4/round 71 0
-run
-run
-run
-run
-run
-force -freeze sim:/mix4/input 0000000000000000000000000000000011111111111111111111111111111111 0
-force -freeze sim:/mix4/crypt 1 0
-run
-run
-run
-run
-run
-run
-run
-force -freeze sim:/mix4/input 0000000000000000000000000000000000000001111111100000000111111110 0
-run
-run
-run
-run
-run
-run
-force -freeze sim:/mix4/crypt 0 0
-run
-run
-run
-run
-run
-run
-restart -f
-# ** Warning: Design size of 1 instances exceeds ModelSim ALTERA recommended capacity.
-# This may because you are loading cell libraries which are not recommended with
-# the ModelSim Altera version. Expect performance to be adversely affected.
-force -freeze sim:/mix4/input 0000000000000000000000000000000000000001111111100000000111111110 0
-force -freeze sim:/mix4/round 0 0
-force -freeze sim:/mix4/crypt 1 0
-run
-run
-run
-run
-run
-run
-force -freeze sim:/mix4/input 0000000000000000000000000000000000010000111111110100000011111111 0
-force -freeze sim:/mix4/round 1 0
-run
-run
-run
-run
-run
-run
-force -freeze sim:/mix4/input 0000000000000000000000000000000011110000000011111100000000111111 0
-force -freeze sim:/mix4/round 2 0
-run
-run
-run
-run
-run
-run
-force -freeze sim:/mix4/round 3 0
-force -freeze sim:/mix4/input 0000000000000000000000000000000011100001111111111000000111111111 0
-run
-run
-run
-run
-run
-run
-force -freeze sim:/mix4/input 0000000000000000000000000000000000011111111000000111111110000000 0
-force -freeze sim:/mix4/crypt 0 0
-run
-run
-run
-run
-run
-run
-force -freeze sim:/mix4/round 4 0
-run
-run
-run
-run
-run
-run
-force -freeze sim:/mix4/round 3 0
-run
-run
-run
-run
-run
-run
-run
-force -freeze sim:/mix4/input 0000000000000000000000000000000011111111111000011111111110000001 0
-force -freeze sim:/mix4/round 2 0
-run
-run
-run
-run
-run
-run
-run
-force -freeze sim:/mix4/input 0000000000000000000000000000000000001111110100100011111101000010 0
-force -freeze sim:/mix4/round 1 0
-run
-run
-run
-run
-run
-run
-force -freeze sim:/mix4/input 0000000000000000000000000000000010111011000101111011111010000100 0
-run
-run
-run
-run
-run
-run
-run
-force -freeze sim:/mix4/round 0 0
-noforce sim:/mix4/output
-run
-run
-run
-run
-run
-run
-restart -f
-# ** Warning: Design size of 1 instances exceeds ModelSim ALTERA recommended capacity.
-# This may because you are loading cell libraries which are not recommended with
-# the ModelSim Altera version. Expect performance to be adversely affected.
-force -freeze sim:/mix4/input 0000000000000000000000000000000011111111111111111111111111111111 0
-force -freeze sim:/mix4/round 0 0
-force -freeze sim:/mix4/crypt 1 0
-run
-run
-run
-run
-run
-run
-force -freeze sim:/mix4/input 0000000000000000000000000000000000000001111111100000000111111110 0
-force -freeze sim:/mix4/crypt 0 0
-run
-run
-run
-run
-run
-run
-force -freeze sim:/mix4/round 1 0
-force -freeze sim:/mix4/crypt 1 0
-run
-run
-run
-run
-run
-run
-noforce sim:/mix4/output
-force -freeze sim:/mix4/input 0000000000000000000000000000000000001000111111110000001011111111 0
-force -freeze sim:/mix4/crypt 0 0
+force -freeze sim:/threefish/crypt 0 0
 run
 run
 run
